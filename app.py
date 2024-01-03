@@ -18,7 +18,7 @@ nltk.download('stopwords')
 
 
 # Path gambar background
-background_image_path = "/app/bot.webp"  # Ganti dengan path gambar Anda
+background_image_path = "bot.webp"  # Ganti dengan path gambar Anda
 
 # Menambahkan gambar sebagai background dengan lebar 100%
 st.markdown(
