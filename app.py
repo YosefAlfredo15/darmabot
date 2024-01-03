@@ -44,7 +44,7 @@ import streamlit as st
 # Judul di tengah dengan HTML
 # Path gambar
 # Path gambar
-image_path = "/app/chatbot.webp"  # Ganti dengan path gambar Anda
+image_path = "chatbot.webp"  # Ganti dengan path gambar Anda
 
 # Menambahkan gambar di halaman utama
 st.image(image_path, width=100)
