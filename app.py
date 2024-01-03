@@ -12,7 +12,6 @@ from nltk.stem import PorterStemmer
 from datetime import datetime
 import locale
 from nltk.corpus import stopwords
-from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 nltk.download('punkt')
 nltk.download('stopwords')
 
