@@ -59,69 +59,76 @@ st.markdown("<p style='text-align: center;'>Halo! nama aku darma bot, Silahkan A
 #pertanyaan dan jawaban
 responses = {
 
+# Selamat Pagi (salam)
     "pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
     "selamat pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
     "selamat pagi kawan" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
     "selamat pagi teman" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
 
+# Selamat Siang (salam)
     "siang" : ["Selamat Siang , Ada yang bisa saya bantu?"],
     "selamat siang" : ["Selamat Siang , Ada yang bisa saya bantu?"],
     "selamat siang kawan" : ["Selamat Siang , Ada yang bisa saya bantu?"],
     "selamat siang teman" : ["Selamat Siang , Ada yang bisa saya bantu?"],
 
+# Selamat Sore (salam)
     "sore" : ["Selamat Sore , Ada yang bisa saya bantu?" ],
     "selamat sore" : ["Selamat Sore , Ada yang bisa saya bantu?" ],
     "selamat sore kawan" : ["Selamat Sore , Ada yang bisa saya bantu?" ],
     "selamat sore teman" : ["Selamat Sore , Ada yang bisa saya bantu?" ],
 
+# Selamat Malam (salam)
     "malam" : ["Selamat Malam , Ada yang bisa saya bantu?"],
     "selamat malam kawan" : ["Selamat Malam , Ada yang bisa saya bantu?"],
     "selamat malam teman" : ["Selamat Malam , Ada yang bisa saya bantu?"],
     "selamat malam" : ["Selamat Malam , Ada yang bisa saya bantu?"],
 
-    "hai" : ["Hai, ada yang bisa saya bantu?"],
-    "halo" :["Halo , ada yang bisa saya bantu?"],
-    "hallo" :["Halo , ada yang bisa saya bantu?"],
-    "hi" : ["Hi, ada yang bisa saya bantu?"],
-    "hay" : ["Hay, ada yang bisa saya bantu?"],
-    "hy" : ["Hy, ada yang bisa saya bantu?"],
-
-    "hai darma bot" : ["Hai, ada yang bisa saya bantu?"],
-    "halo darma bot" :["Halo, ada yang bisa saya bantu?"],
-    "hallo darma bot" :["Halo, ada yang bisa saya bantu?"],
-    "hi darma bot" : ["Hi, ada yang bisa saya bantu?"],
-    "hay darma bot" : ["Hay, ada yang bisa saya bantu?"],
-    "hy darma bot" : ["Hy, ada yang bisa saya bantu?"],
+# Hai (sapaan)
+    "hai" : ["Hai😄, ada yang bisa saya bantu?"],
+    "halo" :["Halo😄, ada yang bisa saya bantu?"],
+    "hallo" :["Halo😄, ada yang bisa saya bantu?"],
+    "hi" : ["Hi😄, ada yang bisa saya bantu?"],
+    "hay" : ["Hay😄, ada yang bisa saya bantu?"],
+    "hy" : ["Hy😄, ada yang bisa saya bantu?"],
 
 
+# salam bot (salam)
+    "hai darma bot "  : ["Hai😄, ada yang bisa saya bantu?"],
+    "halo darma bot" :["Halo😄, ada yang bisa saya bantu?"],
+    "hallo darma bot" :["Halo😄, ada yang bisa saya bantu?"],
+    "hi darma bot" : ["Hi😄, ada yang bisa saya bantu?"],
+    "hay darma bot" : ["Hay😄, ada yang bisa saya bantu?"],
+    "hy darma bot" : ["Hy😄, ada yang bisa saya bantu?"],
 
-    "hai bot" : ["Hai, ada yang bisa saya bantu?"],
-    "halo bot" :["Halo, ada yang bisa saya bantu?"],
-    "hallo bot" :["Halo, ada yang bisa saya bantu?"],
-    "hi bot" : ["Hi, ada yang bisa saya bantu?"],
-    "hay bot" : ["Hay, ada yang bisa saya bantu?"],
-    "hy bot" : ["Hy, ada yang bisa saya bantu?"],
 
-    "hai kawan" : ["Hai, ada yang bisa saya bantu?"],
-    "halo kawan " :["Halo, ada yang bisa saya bantu?"],
-    "hallo kawan " :["Halo, ada yang bisa saya bantu?"],
-    "hi kawan " : ["Hi, ada yang bisa saya bantu?"],
-    "hay kawan " : ["Hay, ada yang bisa saya bantu?"],
-    "hy kawan " : ["Hy, ada yang bisa saya bantu?"],
+# salam bot (salam)
+    "hai bot" : ["Hai😄, ada yang bisa saya bantu?"],
+    "halo bot" :["Halo😄, ada yang bisa saya bantu?"],
+    "hallo bot" :["Halo😄, ada yang bisa saya bantu?"],
+    "hi bot" : ["Hi😄, ada yang bisa saya bantu?"],
+    "hay bot" : ["Hay😄, ada yang bisa saya bantu?"],
+    "hy bot" : ["Hy😄, ada yang bisa saya bantu?"],
 
-    "hai teman" : ["Hai, ada yang bisa saya bantu?"],
-    "halo teman" :["Halo, ada yang bisa saya bantu?"],
-    "hallo teman" :["Halo, ada yang bisa saya bantu?"],
-    "hi teman" : ["Hi, ada yang bisa saya bantu?"],
-    "hay teman" : ["Hay, ada yang bisa saya bantu?"],
-    "hy teman" : ["Hy, ada yang bisa saya bantu?"],
+    "hai kawan" : ["Hai😄, ada yang bisa saya bantu?"],
+    "halo kawan " :["Halo😄, ada yang bisa saya bantu?"],
+    "hallo kawan " :["Halo😄, ada yang bisa saya bantu?"],
+    "hi kawan " : ["Hi😄, ada yang bisa saya bantu?"],
+    "hay kawan " : ["Hay😄, ada yang bisa saya bantu?"],
+    "hy kawan " : ["Hy😄, ada yang bisa saya bantu?"],
 
-    "hai bot" : ["Hai, ada yang bisa saya bantu?"],
-    "halo bot" :["Halo, ada yang bisa saya bantu?"],
-    "hallo bot" :["Halo, ada yang bisa saya bantu?"],
-    "hi bot" : ["Hi, ada yang bisa saya bantu?"],
-    "hay bot" : ["Hay, ada yang bisa saya bantu?"],
-    "hy bot" : ["Hy, ada yang bisa saya bantu?"],
+    "hai teman" : ["Hai😄, ada yang bisa saya bantu?"],
+    "halo teman" :["Halo😄, ada yang bisa saya bantu?"],
+    "hallo teman" :["Halo😄, ada yang bisa saya bantu?"],
+    "hi teman" : ["Hi😄, ada yang bisa saya bantu?"],
+    "hay teman" : ["Hay😄, ada yang bisa saya bantu?"],
+    "hy teman" : ["Hy😄, ada yang bisa saya bantu?"],
+
+    "hai bot" : ["Hai😄, ada yang bisa saya bantu?"],
+    "halo bot" :["Halo😄, ada yang bisa saya bantu?"],
+    "hallo bot" :["Halo😄, ada yang bisa saya bantu?"],
+    "hi bot" : ["Hi😄, ada yang bisa saya bantu?"],
+    "hay bot" : ["Hay😄, ada yang bisa saya bantu?"],
+    "hy bot" : ["Hy😄, ada yang bisa saya bantu?"],
 
     "salam": ["Salam juga!", "Senang bertemu dengan Anda.", "Hai, apa kabar?"],
     "kenal" : ["Salam kenal juga", "Senang bertemu dengan Anda.", "Hai, apa kabar?"],
@@ -133,13 +140,21 @@ responses = {
     "oke" : ["Salam kenal juga", "Senang bertemu dengan Anda.", "Hai, apa kabar?"],
     "okeh" : ["Salam kenal juga", "Senang bertemu dengan Anda.", "Hai, apa kabar?"],
     
-
+#Perasaan
     "baik" : ["Syukurlah semoga sehat selalu ya, Ada yang bisa saya bantu? "],
     "sehat" : ["Syukurlah semoga sehat selalu ya, Ada yang bisa saya bantu? "],
     "Alhamdullilah, sehat": ["Syukurlah semoga sehat selalu ya, Ada yang bisa saya bantu? "],
-    "Alhamdullilah, baik": ["Syukurlah semoga sehat selalu ya, Ada yang bisa saya bantu? "],
-    "Puji tuhan, baik" : ["Syukurlah semoga sehat selalu ya, Ada yang bisa saya bantu? "],
+    "Alhamdullilah, baik": ["Syukurlah jika baik, Ada yang bisa saya bantu? "],
+    "Puji tuhan, baik" : ["Syukurlah jika baik, Ada yang bisa saya bantu? "],
     "Puji tuhan, sehat" : ["Syukurlah semoga sehat selalu ya, Ada yang bisa saya bantu? "],
+    "baik baik saja" : ["Syukurlah jika baik, Ada yang bisa saya bantu? "],
+    "sehat sehat saja" : ["Syukurlah semoga sehat selalu ya, Ada yang bisa saya bantu? "],
+    "good" : ["Good, Ada yang bisa saya bantu? "],
+    "sedih" : ["Sudahi kesedihan mu ya😄, ada yang bisa saya bantu"]
+    "Tidak Sehat" :["Semoga lekas sembuh, perbanyak istirahat. Ada yang bisa saya bantu?"]
+    "kurang enak badan" : "Semoga lekas sembuh, perbanyak istirahat. Ada yang bisa saya bantu?"
+    "aku kecewa" : "Ada apa?, Ada yang bisa saya bantu?"
+    "aku tidak senang" : " Mengapa, Ada yang bisa saya bantu?"
 
     "kabar" : ["Saya adalah asisten virtual, jadi saya tidak memiliki perasaan fisik seperti manusia. Namun, saya selalu siap dan senang membantu Anda dengan pertanyaan atau masalah apa pun yang Anda miliki. Apakah ada yang dapat saya bantu? "],
     "apa kabar" : ["Saya adalah asisten virtual, jadi saya tidak memiliki perasaan fisik seperti manusia. Namun, saya selalu siap dan senang membantu Anda dengan pertanyaan atau masalah apa pun yang Anda miliki. Apakah ada yang dapat saya bantu? "],
@@ -156,26 +171,68 @@ responses = {
     "kamu sedang apa" :["Sedang mengaggur nih, Ada yang bisa saya bantu?"],
     "sedang apa" :["Sedang mengaggur nih, Ada yang bisa saya bantu?"],
     "lagi apa" :["Sedang mengaggur nih, Ada yang bisa saya bantu?"],
+    "apa" : ["Apa yang ingin kamu tanyakan?"],
+    "Siapa" : ["Siapa?. Maksud kamu siapa aku? (Aku adalah Darma Bot)"],
+    "Bagaimana" : ["Bagaimana?. Coba jelaskan kembali, apa yang kamu tanyakan?"],
+    "mengapa" :["Mengapa?. Coba jelaskan kembali, apa yang mau kamu tanyakan?"],
 
     "terimakasih" : ["Baik, sama-sama"],
+    "terimakasih darma bot" : ["Baik, sama-sama"],
     "makasih" : ["Baik, sama-sama"],
+    "makasih darma bot" : ["Baik, sama-sama"],
     "terimakasih ya" : ["Baik, sama-sama"],
+    "terimakasih ya darma bot" : ["Baik, sama-sama"],
     "makasih ya" : ["Baik, sama-sama"],
+    "makasih ya darma bot" : ["Baik, sama-sama"],
+    "thankyou" :  ["Urwellcome"],
+    "thankyou darma bot" :  ["Urwellcome"],
+    "thankyou ya" : ["Urwellcome"],
+    "thanks" : ["Urwellcome"],
+    "thanks ya" : ["Urwellcome"],
+
 
     "bertanya" :["Silahkan","Apa yang anda ingin tanyakan?"],
     "saya ingin bertanya" :["Silahkan","Apa yang anda ingin tanyakan?"],
     "saya mau bertanya" :["Silahkan","Apa yang anda ingin tanyakan?"],
-    "mau tanya tanya" :["Silahkan"],
-    "saya mau tanya tanya" :["Silahkan"],
+    "mau tanya tanya" :["Silahkan, apa yang ingin anda tanyakan?"],
+    "saya mau tanya tanya" :["Silahkan, apa yang ingin anda tanyakan?"],
+    "saya mau tanya tanya" :["Silahkan, apa yang ingin anda tanyakan?"],
     "saya mau tanya" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    "saya mau tanya boleh" : ["Silahkan","Apa yang anda ingin tanyakan?"],
+    "saya ingin bertanya boleh" : ["Silahkan","Apa yang anda ingin tanyakan?"],
+    "mau tanya boleh" : ["Silahkan","Apa yang anda ingin tanyakan?"],
 
-    "siapa kamu"  : ["Saya adalah Darma Bot","Saya adalah bot"],
-    "nama kamu siapa"  : ["Saya adalah Darma Bot","Saya adalah bot"],
-    "siapa nama kamu"  : ["Saya adalah Darma Bot","Saya adalah bot"],
-    "kamu siapa" :  ["Saya adalah Darma Bot","Saya adalah bot"],
-    "kamu itu siapa" :  ["Saya adalah Darma Bot","Saya adalah bot"],
-    "siapa kamu itu" :  ["Saya adalah Darma Bot","Saya adalah bot"],
-    "nama": ["Saya adalah Chatbot Darma.", "Anda bisa memanggil saya Darma.", "Salam kenal!"],
+
+    "siapa kamu"  : ["Halo, Saya adalah Darma Bot"],
+    "nama kamu siapa"  : [" Halo, Saya adalah Darma Bot"],
+    "siapa nama kamu"  : [" Halo, Saya adalah Darma Bot"],
+    "kamu siapa" :  ["Halo, Saya adalah Darma Bot"],
+    "kamu itu siapa" :  [" Halo, Saya adalah Darma Bot"],
+    "siapa kamu itu" :  ["Halo, Saya adalah Darma Bot"],
+    "nama": ["Saya adalah Darma Bot.", "Anda bisa memanggil saya Darma.", "Salam kenal!"],
+
+    "apa itu ukdc" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor."],
+    "apa ukdc itu" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "apa itu kampus UKDC" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "apa kampus UKDC itu" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "apa Univeristas UKDC itu" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "apa itu Univeristas UKDC" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "apa Univeristas Katolik Darma Cendika itu" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "apa itu Univeristas Katolik Darma Cendika" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "UKDC itu kampus apa" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "Kampus UKDC itu apa" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "Univ Darma cendika itu apa" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "Kampus Darma Cendika itu apa" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "Universitas UKDC itu apa" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "Univeristas Katolik Darma Cendika itu" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "apa kampus UKDC itu" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "apa yang kamu ketahui tentang UKDC?" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "apa yang kamu ketahui tentang kampus UKDC?" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "apa yang kamu ketahui tentang darma cendika surabaya?" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "apa yang kamu ketahui tentang kampus darma cendika UKDC?" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "UKDC itu apa sih" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "coba jelaskan mengenai kampus ukdc" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
+    "tolong jelaskan apa itu kampus ukdc" :["Universitas Katolik Darma Cendika (UKDC) merupakan salah satu Universitas Katolik yang berkembang pesat di Indonesia. Kami berusaha untuk memberikan pendidikan tinggi yang berkualitas bagi siswa baik secara akademis dan karakter. Berkomitmen untuk menjalankan visi dan misinya menjadi universitas yang unggul dalam memberikan pendidikan karakterpreneurship di Indonesia. Dalam upaya menghadapi perkembangan lingkungan kerja modern, UKDC secara aktif menjalin kerjasama dengan berbagai institusi baik di dalam maupun di luar negeri. Kerjasama ini diharapkan dapat menghasilkan saling menguntungkan dan mampu meningkatkan kualitas pembelajaran yang diperoleh mahasiswa. Dengan terus meningkatkan kualitas tenaga pengajar, fasilitas kampus dan juga tata kelola pendidikan tinggi, Universitas Katolik Darma Cendika akan selalu berperan aktif dalam menghasilkan lulusan yang berkualitas sehingga mampu memberikan kontribusi bagi pembangunan nasional di berbagai sektor"],
 
     "jurusan ukdc" : ["1.Prodi Manajemen 2.Prodi Akutansi 3.Prodi Ilmu Hukum 4.Prodi Teknik Industri 5.Prodi Teknik Informatika 6.Prodi Arsitektur 7.Prodi Akupuntur & Pengobatan Herbal"],
     "prodi ukdc" : ["1.Prodi Manajemen 2.Prodi Akutansi 3.Prodi Ilmu Hukum 4.Prodi Teknik Industri 5.Prodi Teknik Informatika 6.Prodi Arsitektur 7.Prodi Akupuntur & Pengobatan Herbal"],
@@ -185,6 +242,19 @@ responses = {
     "prodi yang ada di ukdc" : ["1.Prodi Manajemen 2.Prodi Akutansi 3.Prodi Ilmu Hukum 4.Prodi Teknik Industri 5.Prodi Teknik Informatika 6.Prodi Arsitektur 7.Prodi Akupuntur & Pengobatan Herbal"],
     "jurusan yang ada di ukdc" : ["1.Prodi Manajemen 2.Prodi Akutansi 3.Prodi Ilmu Hukum 4.Prodi Teknik Industri 5.Prodi Teknik Informatika 6.Prodi Arsitektur 7.Prodi Akupuntur & Pengobatan Herbal"],
     "jurusan apa yang ada di ukdc" : ["1.Prodi Manajemen 2.Prodi Akutansi 3.Prodi Ilmu Hukum 4.Prodi Teknik Industri 5.Prodi Teknik Informatika 6.Prodi Arsitektur 7.Prodi Akupuntur & Pengobatan Herbal"],
+    "jurusan apa aja yang ada di ukdc" : ["1.Prodi Manajemen 2.Prodi Akutansi 3.Prodi Ilmu Hukum 4.Prodi Teknik Industri 5.Prodi Teknik Informatika 6.Prodi Arsitektur 7.Prodi Akupuntur & Pengobatan Herbal"],
+
+    "apa visi kampus ukdc" :["Visi : “Menjadi Universitas yang unggul dalam mengembangkan characterpreneurship di Indonesia.“"]
+    "apa visi kampus darma cendika" : ["Visi : “Menjadi Universitas yang unggul dalam mengembangkan characterpreneurship di Indonesia.“"]
+    "apa visi kampus darma cendika" : ["Visi : “Menjadi Universitas yang unggul dalam mengembangkan characterpreneurship di Indonesia.“"]
+    "apa misi kampus darma cendika" : ["Misi :Menyelenggarakan pendidikan tinggi yang integratif guna menghasilkan lulusan yang berkarakter wirausaha yang jujur, peduli dan bertanggung jawab. b. Menciptakan ekosistem pendidikan yang kolaboratif dan kondusif untuk mengembangkan budaya inovasi. c. Mewujudkan kualitas dosen dan tenaga kependidikan yang unggul berdasarkan nilai-nilai kebenaran dan kasih sayang. d. Mengoptimalkan civitas akademika dan pemangku kepentingan dalam melaksanakan tata kelola perguruan tinggi yang kredibel, transparan, akuntabel, bertanggung jawab, dan berkeadilan secara berkelanjutan. e. Membangun kemitraan dalam rangka meningkatkan kesejahteraan masyarakat."]
+    "apa misi kampus darma cendika" : ["Misi :Menyelenggarakan pendidikan tinggi yang integratif guna menghasilkan lulusan yang berkarakter wirausaha yang jujur, peduli dan bertanggung jawab. b. Menciptakan ekosistem pendidikan yang kolaboratif dan kondusif untuk mengembangkan budaya inovasi. c. Mewujudkan kualitas dosen dan tenaga kependidikan yang unggul berdasarkan nilai-nilai kebenaran dan kasih sayang. d. Mengoptimalkan civitas akademika dan pemangku kepentingan dalam melaksanakan tata kelola perguruan tinggi yang kredibel, transparan, akuntabel, bertanggung jawab, dan berkeadilan secara berkelanjutan. e. Membangun kemitraan dalam rangka meningkatkan kesejahteraan masyarakat."]
+    "apa visi dan misi kampus darma cendika" : ["Untuk Visi dan Misi di kampus ukdc anda bisa mengakses link ini : https://ukdc.ac.id/visi-misi/"]
+    "apa misi kampus ukdc" : ["Misi :Menyelenggarakan pendidikan tinggi yang integratif guna menghasilkan lulusan yang berkarakter wirausaha yang jujur, peduli dan bertanggung jawab. b. Menciptakan ekosistem pendidikan yang kolaboratif dan kondusif untuk mengembangkan budaya inovasi. c. Mewujudkan kualitas dosen dan tenaga kependidikan yang unggul berdasarkan nilai-nilai kebenaran dan kasih sayang. d. Mengoptimalkan civitas akademika dan pemangku kepentingan dalam melaksanakan tata kelola perguruan tinggi yang kredibel, transparan, akuntabel, bertanggung jawab, dan berkeadilan secara berkelanjutan. e. Membangun kemitraan dalam rangka meningkatkan kesejahteraan masyarakat."]
+    "apa visi dan misi kampus ukdc" : ["Untuk Visi dan Misi di kampus ukdc anda bisa mengakses link ini : https://ukdc.ac.id/visi-misi/"]
+    "sebutkan visi kampus ukdc" : ["Visi : “Menjadi Universitas yang unggul dalam mengembangkan characterpreneurship di Indonesia.“"]
+    "sebutkan misi kampus ukdc" ["Misi :Menyelenggarakan pendidikan tinggi yang integratif guna menghasilkan lulusan yang berkarakter wirausaha yang jujur, peduli dan bertanggung jawab. b. Menciptakan ekosistem pendidikan yang kolaboratif dan kondusif untuk mengembangkan budaya inovasi. c. Mewujudkan kualitas dosen dan tenaga kependidikan yang unggul berdasarkan nilai-nilai kebenaran dan kasih sayang. d. Mengoptimalkan civitas akademika dan pemangku kepentingan dalam melaksanakan tata kelola perguruan tinggi yang kredibel, transparan, akuntabel, bertanggung jawab, dan berkeadilan secara berkelanjutan. e. Membangun kemitraan dalam rangka meningkatkan kesejahteraan masyarakat."]
+    "sebutkan visi dan misi kampus ukdc" : ["Untuk Visi dan Misi di kampus ukdc anda bisa mengakses link ini : https://ukdc.ac.id/visi-misi/"]
 
     "syarat" :["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "saya ingin masuk ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
@@ -193,6 +263,10 @@ responses = {
     "syarat apa untuk masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "syarat masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "saya ingin masuk UKDC" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "apa saja syarat untuk masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "apa saja syarat syarat untuk masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "syarat masuk ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "Sebutkan syarat apa saja yang ada di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
 
     "bagaiamana cara mendaftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "daftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
@@ -203,6 +277,14 @@ responses = {
     "saya ingin mendaftar di UKDC" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "saya ingin mendaftarkan diri" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "saya ingin mendaftarkan diri di ukdc" :  ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "saya mau mendaftar" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "saya daftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "apakah saya bisa mendaftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "Pendaftaran di kampus UKDC" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "Pendaftaran di univeristas UKDC" :["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "Pendaftaran di univeristas UKDC" :["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "Bagaimana mendaftar di kampus ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "Bagaimana daftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
 
 
     "pendaftaran" : ["Formulir pendaftaran ada di https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603"],
@@ -213,6 +295,12 @@ responses = {
     "boleh minta formulir pendaftaran ukdc": ["Silahkan, formulir pendaftaran ada di https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603"],
     "form pendaftaran ukdc": ["Formulir pendaftaran ada di https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603"],
     "form pendaftaran": ["Formulir pendaftaran ada di https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603"],
+    "tampilkan formulir pendaftaran" : ["Formulir pendaftaran ada di https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603"],
+    "tampilkan form pendaftaran" : ["Formulir pendaftaran ada di https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603"],
+    "apakah ada formulir pendaftaran" : ["Formulir pendaftaran ada di https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603"],
+    "Adakah formulir pendaftaran" : ["Formulir pendaftaran ada di https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603"],
+    "Berikan saya formulir pendaftaran" : ["Formulir pendaftaran ada di https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603"],
+    
 
     "biaya" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
     "infromasi mengenai pembayaran kuliah" :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
@@ -222,8 +310,36 @@ responses = {
     "berapa biaya kuliah di ukdc " :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
     "berapa uang kuliah ukdc " :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
     "biaya kuliah " :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "berapa biaya persemester di kampus ukdc": ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "berapa biaya perkuliahan di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "biaya kampus" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "biaya di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "biaya persemester" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "biaya persemester di kampus ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "biaya persemester di UKDC" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "infomasi biaya kuliah" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "Informasi biaya kuliah di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "Tarif pendaftaran online" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "Tarif kuliah di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
 
-    "proses penerimaan": ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan wawancara."],
+
+
+    #Proses Penerimaan Mahasiswa Baru
+    "PMB UKDC"
+    "proses penerimaan": ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "bagaimana proses penerimaan di kampus UKDC" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],  
+    "bagaimana proses penerimaan mahasiswa baru di kampus ukdc" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "proses penerimaan mahasiswa baru di kampus ukdc" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "proses penerimaan di kampus UKDC" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "bagaimana proses penerimaan di kampus UKDC" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "tahan dan proses PMB di kampus ukdc" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "bagaimana proses penerimaan mahasiswa baru di universitas katolik darma cendika" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "bagaimana tahap penerimaan mahasiswa baru di universitas katolik darma cendika" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "tahap tahap penerimaan mahasiswa baru di universitas katolik darma cendika" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "tahap tahap penerimaan mahasiswa baru di kampus ukdc" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+
+
+
     "persyaratan masuk": ["Untuk mendaftar sebagai mahasiswa baru, Anda perlu memiliki ijazah SMA atau setara, mengisi formulir pendaftaran, melampirkan dokumen yang diperlukan, dan lulus dalam tahap seleksi. Informasi lebih lanjut dapat ditemukan di situs web resmi kami <a href='www.ukdc.ac.id'>halaman biaya kuliah</a>."],
     "jadwal penerimaan": ["Jadwal penerimaan mahasiswa baru kami biasanya dibuka setiap tahun pada bulan Mei dan ditutup pada bulan Agustus. Pastikan untuk memeriksa situs web resmi kami atau menghubungi bagian penerimaan untuk mendapatkan tanggal-tanggal penting, Informasi lebih lanjut dapat ditemukan di situs web resmi kami (https://www.ukdc.ac.id)."],
     "biaya kuliah": ["Biaya kuliah di universitas kami bervariasi tergantung pada program studi yang Anda pilih. Informasi lebih lanjut tentang biaya kuliah dan komponennya dapat ditemukan di brosur penerimaan atau Kunjungi [situs web resmi universitas kami](https://www.ukdc.ac.id) untuk informasi lebih lanjut."],
@@ -231,11 +347,25 @@ responses = {
     "prodi favorit": ["Program studi yang paling diminati oleh mahasiswa baru kami umumnya adalah Teknik Informatika, Manajemen Bisnis, dan Psikologi. Namun, pilihan dapat bervariasi sesuai dengan minat masing-masing calon mahasiswa."],
     "pendaftaran online": ["Ya, kami menyediakan opsi pendaftaran online untuk memudahkan calon mahasiswa baru. Anda dapat mengunjungi situs web resmi kami dan mengikuti panduan pendaftaran online di sana."],
     "interview": ["Tidak semua program studi memerlukan sesi wawancara, tetapi beberapa program khusus atau beasiswa mungkin melibatkan wawancara sebagai bagian dari seleksi. Pastikan untuk memeriksa informasi pendaftaran atau menghubungi bagian penerimaan untuk detail lebih lanjut."],
-    "peringkat universitas": ["Universitas kami memiliki peringkat yang sangat baik di tingkat nasional dan regional. Untuk informasi lebih lanjut tentang peringkat kami, Anda dapat merujuk ke lembaga penilaian pendidikan resmi atau situs web resmi universitas."],
-    
+    "peringkat universitas": ["Universitas kami menempati peringkat 357 Indonesia, 4744 Asia serta peringkat 11548 dunia. Untuk informasi lebih lanjut tentang peringkat kami, Anda dapat merujuk ke lembaga penilaian pendidikan resmi atau situs web resmi universitas. https://ukdc.ac.id/"],
+    "peringkat universitas UKDC" : ["Universitas kami menempati peringkat 357 Indonesia, 4744 Asia serta peringkat 11548 dunia. Untuk informasi lebih lanjut tentang peringkat kami, Anda dapat merujuk ke lembaga penilaian pendidikan resmi atau situs web resmi universitas. https://ukdc.ac.id/"],
+    "peringkat kampus UKDC" : ["Universitas kami menempati peringkat 357 Indonesia, 4744 Asia serta peringkat 11548 dunia. Untuk informasi lebih lanjut tentang peringkat kami, Anda dapat merujuk ke lembaga penilaian pendidikan resmi atau situs web resmi universitas. https://ukdc.ac.id/"],
+    "peringkat kampus Univeristas Katolik Darma Cendika" : ["Universitas kami menempati peringkat 357 Indonesia, 4744 Asia serta peringkat 11548 dunia. Untuk informasi lebih lanjut tentang peringkat kami, Anda dapat merujuk ke lembaga penilaian pendidikan resmi atau situs web resmi universitas. https://ukdc.ac.id/"],
+    "peringkat univ UKDC" : ["Universitas kami menempati peringkat 357 Indonesia, 4744 Asia serta peringkat 11548 dunia. Untuk informasi lebih lanjut tentang peringkat kami, Anda dapat merujuk ke lembaga penilaian pendidikan resmi atau situs web resmi universitas. https://ukdc.ac.id/"],
+    "peringkat Univeristas Katolik Darma Cendika" : ["Universitas kami menempati peringkat 357 Indonesia, 4744 Asia serta peringkat 11548 dunia. Untuk informasi lebih lanjut tentang peringkat kami, Anda dapat merujuk ke lembaga penilaian pendidikan resmi atau situs web resmi universitas. https://ukdc.ac.id/"],
+
+
     "fasilitas kampus": ["Kampus kami dilengkapi dengan berbagai fasilitas untuk mendukung kegiatan belajar-mengajar dan kehidupan mahasiswa. Ini termasuk perpustakaan yang baik, laboratorium hardware komputer, dan fasilitas olahraga. Anda dapat mengunjungi kampus kami untuk tur lebih lanjut."],
     "fasilitas apa saja yang ada di kampus UKDC": ["Kampus kami dilengkapi dengan berbagai fasilitas untuk mendukung kegiatan belajar-mengajar dan kehidupan mahasiswa. Ini termasuk perpustakaan yang baik, laboratorium hardware komputer, dan fasilitas olahraga. Anda dapat mengunjungi kampus kami untuk tur lebih lanjut."],
     "fasilitas ukdc" : ["Kampus kami dilengkapi dengan berbagai fasilitas untuk mendukung kegiatan belajar-mengajar dan kehidupan mahasiswa. Ini termasuk perpustakaan yang baik, laboratorium hardware komputer, dan fasilitas olahraga. Anda dapat mengunjungi kampus kami untuk tur lebih lanjut."],
+    "fasilitas apa saja yang ada di UKDC" : ["Kampus kami dilengkapi dengan berbagai fasilitas untuk mendukung kegiatan belajar-mengajar dan kehidupan mahasiswa. Ini termasuk perpustakaan yang baik, laboratorium hardware komputer, dan fasilitas olahraga. Anda dapat mengunjungi kampus kami untuk tur lebih lanjut."],
+    "fasilitas apa saja yang ada di kampus UKDC" : ["Kampus kami dilengkapi dengan berbagai fasilitas untuk mendukung kegiatan belajar-mengajar dan kehidupan mahasiswa. Ini termasuk perpustakaan yang baik, laboratorium hardware komputer, dan fasilitas olahraga. Anda dapat mengunjungi kampus kami untuk tur lebih lanjut."],
+    "sebutkan fasilitas apa saja yang ada di kampus ukdc" : ["Kampus kami dilengkapi dengan berbagai fasilitas untuk mendukung kegiatan belajar-mengajar dan kehidupan mahasiswa. Ini termasuk perpustakaan yang baik, laboratorium hardware komputer, dan fasilitas olahraga. Anda dapat mengunjungi kampus kami untuk tur lebih lanjut."],
+    "sebutkan fasilitas apa saja yang ada di ukdc" : ["Kampus kami dilengkapi dengan berbagai fasilitas untuk mendukung kegiatan belajar-mengajar dan kehidupan mahasiswa. Ini termasuk perpustakaan yang baik, laboratorium hardware komputer, dan fasilitas olahraga. Anda dapat mengunjungi kampus kami untuk tur lebih lanjut."],
+    "kampus ukdc memiliki fasilitas apa saja" : ["Kampus kami dilengkapi dengan berbagai fasilitas untuk mendukung kegiatan belajar-mengajar dan kehidupan mahasiswa. Ini termasuk perpustakaan yang baik, laboratorium hardware komputer, dan fasilitas olahraga. Anda dapat mengunjungi kampus kami untuk tur lebih lanjut."],
+    "sebut dan jelaskan fasilitas di kampus ukdc" : ["Kampus kami dilengkapi dengan berbagai fasilitas untuk mendukung kegiatan belajar-mengajar dan kehidupan mahasiswa. Ini termasuk perpustakaan yang baik, laboratorium hardware komputer, dan fasilitas olahraga. Anda dapat mengunjungi kampus kami untuk tur lebih lanjut."],
+    "fasilitas kampus ukdc" : ["Kampus kami dilengkapi dengan berbagai fasilitas untuk mendukung kegiatan belajar-mengajar dan kehidupan mahasiswa. Ini termasuk perpustakaan yang baik, laboratorium hardware komputer, dan fasilitas olahraga. Anda dapat mengunjungi kampus kami untuk tur lebih lanjut."],
+
 
     #Default untuk jawaban dari pertanyaan yang tidak ada di dataset
     "default" : ["Apakah ada sesuatu yang anda ingin tanyakan kepada saya? saya disni untuk membantu. Ada yang bisa saya bantu?"],
@@ -425,8 +555,8 @@ st.sidebar.subheader("Informasi Tambahan")
 st.sidebar.info("Si Darma Chatbot Adalah Sistem informasi ChatBot untuk membantu user dalam mencari informasi mengenai Universitas Katolik Darma Cendika.")
 
 # Menambahkan tautan ke dokumentasi atau sumber daya
-st.sidebar.subheader("Sumber Daya")
-st.sidebar.markdown("[Dokumentasi Chatbot](https://example.com/docs)")
+st.sidebar.subheader("Mari Tour Bersama Ku Di Kampus UKDC")
+st.sidebar.markdown("[virtual Campus Tour 360](https://ukdc.ac.id/virtual-campus-tour-360/)")
 
 # Menambahkan footer atau tanda air
 st.sidebar.markdown("---")
