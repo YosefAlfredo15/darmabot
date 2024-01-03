@@ -150,11 +150,11 @@ responses = {
     "baik baik saja" : ["Syukurlah jika baik, Ada yang bisa saya bantu? "],
     "sehat sehat saja" : ["Syukurlah semoga sehat selalu ya, Ada yang bisa saya bantu? "],
     "good" : ["Good, Ada yang bisa saya bantu? "],
-    "sedih" : ["Sudahi kesedihan mu ya😄, ada yang bisa saya bantu"]
-    "Tidak Sehat" :["Semoga lekas sembuh, perbanyak istirahat. Ada yang bisa saya bantu?"]
-    "kurang enak badan" : "Semoga lekas sembuh, perbanyak istirahat. Ada yang bisa saya bantu?"
-    "aku kecewa" : "Ada apa?, Ada yang bisa saya bantu?"
-    "aku tidak senang" : " Mengapa, Ada yang bisa saya bantu?"
+    "sedih" : ["Sudahi kesedihan mu ya😄, ada yang bisa saya bantu"],
+    "Tidak Sehat" :["Semoga lekas sembuh, perbanyak istirahat. Ada yang bisa saya bantu?"],
+    "kurang enak badan" : ["Semoga lekas sembuh, perbanyak istirahat. Ada yang bisa saya bantu?"],
+    "aku kecewa" : ["Ada apa?, Ada yang bisa saya bantu?"];
+    "aku tidak senang" : ["Mengapa, Ada yang bisa saya bantu?"],
 
     "kabar" : ["Saya adalah asisten virtual, jadi saya tidak memiliki perasaan fisik seperti manusia. Namun, saya selalu siap dan senang membantu Anda dengan pertanyaan atau masalah apa pun yang Anda miliki. Apakah ada yang dapat saya bantu? "],
     "apa kabar" : ["Saya adalah asisten virtual, jadi saya tidak memiliki perasaan fisik seperti manusia. Namun, saya selalu siap dan senang membantu Anda dengan pertanyaan atau masalah apa pun yang Anda miliki. Apakah ada yang dapat saya bantu? "],
