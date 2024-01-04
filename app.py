@@ -202,7 +202,15 @@ responses = {
     "saya ingin bertanya boleh" : ["Silahkan","Apa yang anda ingin tanyakan?"],
     "mau tanya boleh" : ["Silahkan","Apa yang anda ingin tanyakan?"],
 
-
+    "saya mau tau info" : ["Silahkan, Informasi apa yang anda ingin tanyakan?"],
+    "mau mau tau info tentang ukd" : ["Silahkan, Informasi apa yang anda ingin tanyakan?"],
+    "saya mau tau" : ["Silahkan","Apa yang anda ingin ketahui?"],
+    "mau tau tentang info ukdc dong" : ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik link ini https://siakad.ukdc.ac.id/spmbfront/pengumuman"],
+    "saya mau tau tentang info ukdc dong" : ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik link ini https://siakad.ukdc.ac.id/spmbfront/pengumuman"],    
+    "saya mau tau tentang informasi ukdc dong" : ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik link ini https://siakad.ukdc.ac.id/spmbfront/pengumuman"],
+    "saya mau tau tentang informasi kampus ukdc dong" : ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik link ini https://siakad.ukdc.ac.id/spmbfront/pengumuman"],
+    "saya mau tau tentang info kampus ukdc dong" : ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik link ini https://siakad.ukdc.ac.id/spmbfront/pengumuman"],
+    
     "siapa kamu"  : ["Halo, Saya adalah Darma Bot"],
     "nama kamu siapa"  : [" Halo, Saya adalah Darma Bot"],
     "siapa nama kamu"  : [" Halo, Saya adalah Darma Bot"],
@@ -322,7 +330,7 @@ responses = {
 
 
     #Proses Penerimaan Mahasiswa Baru
-    "PMB UKDC"
+    "PMB UKDC" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
     "proses penerimaan": ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
     "bagaimana proses penerimaan di kampus UKDC" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],  
     "bagaimana proses penerimaan mahasiswa baru di kampus ukdc" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
@@ -334,9 +342,11 @@ responses = {
     "bagaimana tahap penerimaan mahasiswa baru di universitas katolik darma cendika" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
     "tahap tahap penerimaan mahasiswa baru di universitas katolik darma cendika" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
     "tahap tahap penerimaan mahasiswa baru di kampus ukdc" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "proses penerimaan mahasiswa baru" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "tahapan penerimaan mahasiswa baru" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
+    "tahap tahap penerimaan mahasiswa baru" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
 
-
-
+    
     "persyaratan masuk": ["Untuk mendaftar sebagai mahasiswa baru, Anda perlu memiliki ijazah SMA atau setara, mengisi formulir pendaftaran, melampirkan dokumen yang diperlukan, dan lulus dalam tahap seleksi. Informasi lebih lanjut dapat ditemukan di situs web resmi kami <a href='www.ukdc.ac.id'>halaman biaya kuliah</a>."],
     "jadwal penerimaan": ["Jadwal penerimaan mahasiswa baru kami biasanya dibuka setiap tahun pada bulan Mei dan ditutup pada bulan Agustus. Pastikan untuk memeriksa situs web resmi kami atau menghubungi bagian penerimaan untuk mendapatkan tanggal-tanggal penting, Informasi lebih lanjut dapat ditemukan di situs web resmi kami (https://www.ukdc.ac.id)."],
     "biaya kuliah": ["Biaya kuliah di universitas kami bervariasi tergantung pada program studi yang Anda pilih. Informasi lebih lanjut tentang biaya kuliah dan komponennya dapat ditemukan di brosur penerimaan atau Kunjungi [situs web resmi universitas kami](https://www.ukdc.ac.id) untuk informasi lebih lanjut."],
