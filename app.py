@@ -276,7 +276,14 @@ responses = {
     "apa saja syarat syarat untuk masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "syarat masuk ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "Sebutkan syarat apa saja yang ada di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
-
+    "saya mau masuk ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "saya mau masuk ukdc, bagaimana caranya" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "saya ingin masuk ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "saya ingin masuk ukdc, bagaimana caranya" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "bagaimana cara saya masuk ukdc : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "bagaimana caranya saya masuk ukdc : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    
+    
     "info pendaftaran" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "info pendafaran di ukdc" :["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "informasi pendaftaran" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
@@ -298,7 +305,10 @@ responses = {
     "Pendaftaran di univeristas UKDC" :["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "Bagaimana mendaftar di kampus ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "Bagaimana daftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
-
+    "cara saya masuk ukdc : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "bagaimana cara untuk masuk ukdc : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "bagaimana cara masuk ukdc : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "bagaimana cara saya masuk ukdc : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
 
     
     "informasi formulir pendaftaran" : ["Formulir pendaftaran ada di https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603"],
