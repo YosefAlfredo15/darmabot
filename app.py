@@ -386,7 +386,7 @@ responses = {
 
 
     #Default untuk jawaban dari pertanyaan yang tidak ada di dataset
-    "default" : ["Apakah ada sesuatu yang anda ingin tanyakan kepada saya? contoh : apa syarat masuk ukdc?, bagaiamana cara mendaftar di ukdc, atau berapa uang kuliah di ukdc "],
+    "default" : ["Apakah ada sesuatu yang anda ingin tanyakan kepada saya? contoh : apa syarat masuk ukdc?, bagaiamana cara mendaftar di ukdc?, atau berapa uang kuliah di ukdc?"],
 
 
 
