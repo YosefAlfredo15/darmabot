@@ -266,13 +266,16 @@ responses = {
     "sebutkan visi dan misi kampus ukdc" : ["Untuk Visi dan Misi di kampus ukdc anda bisa mengakses link ini : https://ukdc.ac.id/visi-misi/"],
 
     "syarat" :["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "persyaratan masuk": ["Untuk mendaftar sebagai mahasiswa baru, Anda perlu memiliki ijazah SMA atau setara, mengisi formulir pendaftaran, melampirkan dokumen yang diperlukan, dan lulus dalam tahap seleksi. Informasi lebih lanjut dapat ditemukan di situs web resmi kami <a href='www.ukdc.ac.id'>halaman biaya kuliah</a>."],
     "saya ingin masuk ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "syarat apa saja untuk masuk ke ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "syarat syarat ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "syarat apa untuk masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "syarat masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "saya ingin masuk UKDC" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
-    "apa saja syarat untuk masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "apa syarat masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "apa syarat masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
+    "apa syarat untuk masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],    
     "apa saja syarat syarat untuk masuk di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "syarat masuk ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "Sebutkan syarat apa saja yang ada di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
@@ -290,6 +293,9 @@ responses = {
     "informasi pendaftaran di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "bagaiamana cara mendaftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "daftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "saya mau daftar" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "saya mau daftar" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "saya mau mendaftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "saya mau daftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "cara mendaftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "pendaftaran di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
@@ -368,7 +374,7 @@ responses = {
     "tahap tahap penerimaan mahasiswa baru" : ["Proses penerimaan mahasiswa baru di universitas kami melibatkan beberapa tahap, termasuk pengisian formulir, pengumpulan dokumen, dan berbagai tes. salah satunya adalah tes pengetahuan dan tes wawancara."],
 
     
-    "persyaratan masuk": ["Untuk mendaftar sebagai mahasiswa baru, Anda perlu memiliki ijazah SMA atau setara, mengisi formulir pendaftaran, melampirkan dokumen yang diperlukan, dan lulus dalam tahap seleksi. Informasi lebih lanjut dapat ditemukan di situs web resmi kami <a href='www.ukdc.ac.id'>halaman biaya kuliah</a>."],
+    
     "jadwal penerimaan": ["Jadwal penerimaan mahasiswa baru kami biasanya dibuka setiap tahun pada bulan Mei dan ditutup pada bulan Agustus. Pastikan untuk memeriksa situs web resmi kami atau menghubungi bagian penerimaan untuk mendapatkan tanggal-tanggal penting, Informasi lebih lanjut dapat ditemukan di situs web resmi kami (https://www.ukdc.ac.id)."],
     "biaya kuliah": ["Biaya kuliah di universitas kami bervariasi tergantung pada program studi yang Anda pilih. Informasi lebih lanjut tentang biaya kuliah dan komponennya dapat ditemukan di brosur penerimaan atau Kunjungi [situs web resmi universitas kami](https://www.ukdc.ac.id) untuk informasi lebih lanjut."],
     "beasiswa": ["Kami menyediakan berbagai program beasiswa untuk mahasiswa baru yang berprestasi. Informasi tentang syarat dan pendaftaran beasiswa dapat ditemukan di kantor penerimaan atau situs web resmi kami di (https://www.ukdc.ac.id)."],
