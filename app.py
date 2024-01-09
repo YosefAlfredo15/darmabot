@@ -217,17 +217,31 @@ responses = {
 
 
     "bertanya" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    "bertanya dong" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    "bertanya boleh" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    
     "saya ingin bertanya" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    "saya ingin bertanya dong" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    "saya ingin bertanya boleh" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    
     "saya mau bertanya" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    "saya mau bertanya dong" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    "saya mau bertanya boleh" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    
     "mau tanya tanya" :["Silahkan, apa yang ingin anda tanyakan?"],
+    "mau tanya tanya dong" :["Silahkan, apa yang ingin anda tanyakan?"],
+    "mau tanya tanya boleh" :["Silahkan, apa yang ingin anda tanyakan?"],
+    
     "saya mau tanya tanya" :["Silahkan, apa yang ingin anda tanyakan?"],
-    "saya mau tanya tanya" :["Silahkan, apa yang ingin anda tanyakan?"],
+    "saya mau tanya tanya dong" :["Silahkan, apa yang ingin anda tanyakan?"],
+    "saya mau tanya tanya boleh" :["Silahkan, apa yang ingin anda tanyakan?"],
+    
     "saya mau tanya" :["Silahkan","Apa yang anda ingin tanyakan?"],
-    "saya mau tanya boleh" : ["Silahkan","Apa yang anda ingin tanyakan?"],
-    "saya ingin bertanya boleh" : ["Silahkan","Apa yang anda ingin tanyakan?"],
-    "mau tanya boleh" : ["Silahkan","Apa yang anda ingin tanyakan?"],
-    "saya mau bertanya dong" : ["Silahkan","Apa yang anda ingin tanyakan?"],
-    "saya ingin bertanya dong" : ["Silahkan","Apa yang anda ingin tanyakan?"],
+    "saya mau tanya dong" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    "saya mau tanya boleh" :["Silahkan","Apa yang anda ingin tanyakan?"],
+    
+    
+
     
     
     "pengumuman ukdc" :  ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik link ini https://siakad.ukdc.ac.id/spmbfront/pengumuman"], 
