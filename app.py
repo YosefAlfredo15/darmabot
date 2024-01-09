@@ -209,6 +209,8 @@ responses = {
     "saya mau tanya boleh" : ["Silahkan","Apa yang anda ingin tanyakan?"],
     "saya ingin bertanya boleh" : ["Silahkan","Apa yang anda ingin tanyakan?"],
     "mau tanya boleh" : ["Silahkan","Apa yang anda ingin tanyakan?"],
+    "saya mau bertanya dong" : ["Silahkan","Apa yang anda ingin tanyakan?"],
+    "saya ingin bertanya dong" : ["Silahkan","Apa yang anda ingin tanyakan?"],
     
     
     "pengumuman ukdc" :  ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik link ini https://siakad.ukdc.ac.id/spmbfront/pengumuman"], 
