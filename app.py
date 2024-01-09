@@ -59,6 +59,14 @@ st.markdown("<p style='text-align: center;'>Halo! nama aku darma bot, Silahkan A
 #pertanyaan dan jawaban
 responses = {
 
+    "pagi": [
+        "<h1>Selamat Pagi, Ada yang bisa saya bantu?</h1>",
+        "<h1>Selamat Pagi, Ada yang perlu dibicarakan?</h1>",
+        "<h1>Selamat Pagi, Bagaimana saya bisa membantu Anda hari ini?</h1>",
+        "<h1>Selamat Pagi, Apa kabar?</h1>",
+        "<h1>Selamat Pagi juga! Ada yang bisa saya bantu?</h1>",
+        "<h1>Halo! Selamat Pagi. Ada yang perlu dibicarakan?</h1>",
+    ],
 # Selamat Pagi (salam)
     "pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
     "selamat pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
