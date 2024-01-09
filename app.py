@@ -186,6 +186,8 @@ responses = {
 
     "terimakasih" : ["Baik, sama-sama"],
     "terimakasih darma bot" : ["Baik, sama-sama"],
+    "trims" : ["Baik, sama-sama"],
+    "trims ya" : ["Baik, sama-sama"],
     "makasih" : ["Baik, sama-sama"],
     "makasih darma bot" : ["Baik, sama-sama"],
     "terimakasih ya" : ["Baik, sama-sama"],
@@ -197,6 +199,21 @@ responses = {
     "thankyou ya" : ["Urwellcome"],
     "thanks" : ["Urwellcome"],
     "thanks ya" : ["Urwellcome"],
+    
+    "baiklah kalo begitu, terimakasih ya" : ["Baik, sama-sama"],
+    "baiklah kalo begitu, terimakasih ya darma bot" : ["Baik, sama-sama"],
+    "baiklah kalo begitu, makasih ya" : ["Baik, sama-sama"],
+    "baiklah kalo begitu, makasih ya darma bot" : ["Baik, sama-sama"],
+    "baiklah kalo begitu, trims ya" : ["Baik, sama-sama"],
+    "baiklah kalo begitu, trims ya darma bot" : ["Baik, sama-sama"],
+    "baiklah kalo begitu, thanks ya" : ["Baik, sama-sama"],
+    "baiklah kalo begitu, thanks ya darma bot" : ["Baik, sama-sama"],
+    
+
+    "baiklah kalo begitu" : ["Baik, ada lagi yang ingin anda tanyakan?"],
+    "okelah kalo begitu" : ["Baik, ada lagi yang ingin anda tanyakan?"],
+
+
 
 
     "bertanya" :["Silahkan","Apa yang anda ingin tanyakan?"],
@@ -639,7 +656,7 @@ if st.button("Kirim"):
         bot_response = respond(user_message)
 
         # Menambahkan pesan bot ke dalam percakapan
-        st.session_state.conversation.append({"role": "bot", "message": bot_response})
+        st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
 # Menampilkan chat history
 for message in st.session_state.conversation:
