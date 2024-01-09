@@ -552,9 +552,6 @@ biaya_pendidikan = "https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXps
 formulir_pendaftaran= "https://docs.google.com/spreadsheets/u/1/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit?usp=sharing&ouid=113410767803438705296&rtpof=true&sd=true"
 pendaftaran_online = "https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"
 
-# Percakapan antara pengguna dan chatbot
-conversation = []
-
 
 # Judul di sidebar
 st.sidebar.markdown(f"""
@@ -606,8 +603,15 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 
 
 
-user_message = st.text_input("Anda:", value="", key="user_input").lower()
+# Percakapan antara pengguna dan chatbot
+conversation = []
 
+# Inisialisasi percakapan pada sesi pertama
+if "conversation" not in st.session_state:
+    st.session_state.conversation = []
+
+# Input pengguna
+user_message = st.text_input("Anda:", value="").lower()
 
 # Tombol kirim
 if st.button("Kirim"):
@@ -616,26 +620,19 @@ if st.button("Kirim"):
         st.success("Terima kasih telah menggunakan layanan chatbot kami")
     else:
         # Menambahkan pesan pengguna ke dalam percakapan
-        conversation.append({"role": "Anda", "message": user_message})
-        
+        st.session_state.conversation.append({"role": "Anda", "message": user_message})
+
         # Mendapatkan tanggapan dari chatbot
         bot_response = respond(user_message)
-        
+
         # Menambahkan pesan bot ke dalam percakapan
-        conversation.append({"role": "bot", "message": bot_response})
+        st.session_state.conversation.append({"role": "bot", "message": bot_response})
 
-        user_message = ""
-
-        
-
-    chat_area.text("")
-    for message in conversation:
-        role = message['role'].capitalize()
-        if role == 'Bot':
-            st.markdown(f"**{role}** 🤖: {message['message']}")
-        else:
-            st.markdown(f"**{role}** 👤: {message['message']}")
-
+# Menampilkan chat history
+for message in st.session_state.conversation:
+    role = message['role']
+    emoji = "👤" if role == "Anda" else "🤖"
+    st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
 
 
 
