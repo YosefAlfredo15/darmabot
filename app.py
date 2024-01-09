@@ -111,11 +111,23 @@ responses = {
 
 # salam bot (salam)
     "hai bot" : ["Hai😄, ada yang bisa saya bantu?"],
+    "hai chatbot" : ["Hai😄, ada yang bisa saya bantu?"],
+    
     "halo bot" :["Halo😄, ada yang bisa saya bantu?"],
+    "halo chatbot" :["Halo😄, ada yang bisa saya bantu?"],
+    
     "hallo bot" :["Halo😄, ada yang bisa saya bantu?"],
+    "hallo chatbot" :["Halo😄, ada yang bisa saya bantu?"],
+    
     "hi bot" : ["Hi😄, ada yang bisa saya bantu?"],
+    "hi chatbot" : ["Hi😄, ada yang bisa saya bantu?"],
+    
     "hay bot" : ["Hay😄, ada yang bisa saya bantu?"],
+    "hay chatbotbot" : ["Hay😄, ada yang bisa saya bantu?"],
+    
     "hy bot" : ["Hy😄, ada yang bisa saya bantu?"],
+    "hy chatbotbot" : ["Hy😄, ada yang bisa saya bantu?"],
+    
 
     "hai kawan" : ["Hai😄, ada yang bisa saya bantu?"],
     "halo kawan " :["Halo😄, ada yang bisa saya bantu?"],
