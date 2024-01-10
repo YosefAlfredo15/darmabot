@@ -742,7 +742,6 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 
 
 conversation = []
-
 # Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
@@ -775,7 +774,7 @@ for message in st.session_state.conversation:
     emoji = "👤" if role == "Anda" else "🤖"
 
     # Menggunakan HTML untuk mengatur warna teks chat history (misalnya, putih)
-    st.markdown(f"**{emoji} {role.capitalize()}**: <p style='color: white;'>{message['message']}</p>", unsafe_allow_html=True)
+    st.markdown(f"**<p style='color: white;'>{emoji} {role.capitalize()}**</p>: {message['message']}", unsafe_allow_html=True)
 
     # Mengosongkan nilai input setelah tombol diklik
     st.empty()
