@@ -755,18 +755,6 @@ with st.form(key='my_form'):
 # Form untuk input pengguna
 user_message = st.text_input("Anda:", value="").lower()
 
-# Menambahkan CSS untuk mengubah warna teks "Anda:" menjadi putih
-st.markdown(
-    """
-    <style>
-        div[role="textbox"] {
-            color: white !important;
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
     # Tombol kirim
     submit_button = st.form_submit_button("Kirim")
 
