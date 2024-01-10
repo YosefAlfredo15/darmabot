@@ -749,8 +749,8 @@ if "conversation" not in st.session_state:
 
 # Form untuk input pengguna
 with st.form(key='my_form'):
-    # Menggunakan HTML untuk mengatur warna teks pada elemen input
-    user_message = st.text_input("<p style='color: white;'>Anda:</p>", value="").lower()
+      # Menggunakan CSS untuk mengatur warna teks pada elemen input
+    user_message = st.text_input("Anda:", value="", key='input_text', help="<style>input { color: white; }</style>").lower()
 
     # Tombol kirim
     submit_button = st.form_submit_button("Kirim")
