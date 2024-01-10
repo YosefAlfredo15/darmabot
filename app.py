@@ -36,11 +36,22 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
 # Path gambar
 image_path = "chatbot.webp"  # Ganti dengan path gambar Anda
 
-# Menambahkan gambar di halaman dengan lebar 100%
-st.image(image_path, width=100)
+# Mengatur posisi gambar di tengah halaman menggunakan CSS
+st.markdown(
+    f"""
+    <style>
+    .stImage {{
+        display: flex;
+        justify-content: center;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Menambahkan judul di tengah dengan warna kuning
 st.markdown("<h1 style='text-align: center; color: yellow;'>SI Darma Chatbot</h1>", unsafe_allow_html=True)
