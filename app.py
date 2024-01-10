@@ -740,9 +740,6 @@ st.sidebar.markdown("[virtual Campus Tour 360](https://ukdc.ac.id/virtual-campus
 st.sidebar.markdown("---")
 st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 
-# Percakapan antara pengguna dan chatbot
-conversation = []
-
 # Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
@@ -778,7 +775,6 @@ for message in st.session_state.conversation:
     emoji = "👤" if role == "Anda" else "🤖"
     st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
 
-        # Mengosongkan nilai input setelah tombol diklik
-        st.empty()
+
 
 
