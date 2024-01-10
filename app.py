@@ -737,13 +737,39 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 
 
 conversation = []
-
 # Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
 
 # Form untuk input pengguna dan menampilkan chat history
 with st.form(key='my_form'):
+    # Menggunakan CSS untuk mengatur tampilan formulir
+    st.markdown(
+        """
+        <style>
+        /* Mengatur warna latar belakang formulir menjadi transparan */
+        .stForm {
+            background-color: transparent !important;
+        }
+
+        /* Mengatur border formulir menjadi tebal dan warna tertentu */
+        .stTextInput {
+            border: 2px solid #555 !important;
+            border-radius: 8px !important;
+        }
+
+        /* Mengatur tombol kirim agar berbeda warna dari background formulir */
+        .stButton {
+            background-color: #555 !important;
+            color: #fff !important;
+            border-radius: 8px !important;
+        }
+
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
     # Input pengguna
     user_message = st.text_input("Anda:", value="").lower()
 
