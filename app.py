@@ -37,7 +37,7 @@ st.markdown(
 )
 
 # URL gambar dari GitHub
-image_url = "https://raw.githubusercontent.com/YosefAlfredo15/darmabot/blob/main/chatbot.webp"
+image_url = "https://raw.githubusercontent.com/YosefAlfredo15/darmabot/main/chatbot.webp"
 
 # Menambahkan gambar dengan lebar 70%
 st.markdown(
