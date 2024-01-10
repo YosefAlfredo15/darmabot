@@ -37,9 +37,6 @@ st.markdown(
 )
 
 
-# Path gambar
-image_path = "chatbot.webp"  # Ganti dengan path gambar Anda
-st.image(image_path, width=100)
 
 # Menambahkan judul di tengah dengan warna kuning
 # Menambahkan gambar di halaman utama
