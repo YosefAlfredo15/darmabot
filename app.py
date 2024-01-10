@@ -609,10 +609,7 @@ def get_current_time_jakarta():
     current_time_jakarta = now_jakarta.strftime("%H:%M:%S")
     return current_time_jakarta
 
-# Fungsi untuk menanggapi pertanyaan seputar waktu
-def handle_date_time_queries(user_message):
-    if 'jam' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
-        return f"Sekarang jam {get_current_time_jakarta()}."
+
 
 
 # Fungsi untuk mendapatkan nama hari saat ini
@@ -660,7 +657,7 @@ def respond(user_message, threshold=3):
 
 # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
 def handle_date_time_queries(user_message):
-        if 'jam' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
+    if 'jam' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang jam {get_current_time_jakarta()}."
     elif 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
         return f"Sekarang hari {get_current_hari()}."
