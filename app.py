@@ -43,9 +43,9 @@ image_path = "chatbot.webp"  # Ganti dengan path gambar Anda
 # Menambahkan gambar di sebelah kiri
 st.image(image_path, width=100)
 
-# Menambahkan judul di sebelah kanan dengan warna kuning
-st.markdown("<h1 style='text-align: left; color: yellow;'>SI Darma Chatbot</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: left; color: white;'>Halo! Nama saya Darma Bot. Silakan ajukan pertanyaan Anda!</p>", unsafe_allow_html=True)
+# Menambahkan judul di tengah dengan warna kuning
+st.markdown("<h1 style='text-align: center; color: yellow;'>SI Darma Chatbot</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: white;'>Halo! Nama saya Darma Bot. Silakan ajukan pertanyaan Anda!</p>", unsafe_allow_html=True)
 
 
 
