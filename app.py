@@ -663,6 +663,7 @@ def respond(user_message, threshold=3):
         
 # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
 def handle_date_time_queries(user_message):
+    now = datetime.now()  # Pindahkan inisialisasi variabel now ke dalam fungsi
     if 'sekarang bulan apa' in user_message:
         return f"Sekarang bulan {get_current_namabulan()}."
     elif 'sekarang bulan berapa' in user_message:
