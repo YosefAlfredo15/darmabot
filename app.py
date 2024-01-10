@@ -753,6 +753,10 @@ if st.button("Kirim"):
     if user_message == "exit":
         st.success("Terima kasih telah menggunakan layanan chatbot kami")
     else:
+
+        # Mengosongkan input teks setelah tombol diklik
+        st.session_state.input_text = ""
+        
         # Menambahkan pesan pengguna ke dalam percakapan
         st.session_state.conversation.append({"role": "Anda", "message": user_message})
 
