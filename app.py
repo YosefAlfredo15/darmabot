@@ -43,7 +43,7 @@ image_path = "chatbot.webp"  # Ganti dengan path gambar Anda
 # Menambahkan gambar di tengah halaman dengan lebar 100%
 st.markdown(
     f"""
-    <div style="display: flex; justify-content: center; align-items: center; height: 300px;">
+    <div style="display: flex; justify-content: center; align-items: center; height: 100px;">
         <img src='{image_path}' style='width: 100px;'>
     </div>
     """,
