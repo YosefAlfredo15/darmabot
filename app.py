@@ -769,34 +769,14 @@ if submit_button:
         # Menambahkan pesan bot ke dalam percakapan
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
-        # Menampilkan chat history dengan autoscroll ke bawah
-        conversation_html = """
-        <div style="height: 300px; overflow-y: auto;">
-        {content}
-        </div>
-        """
 
 # Menampilkan chat history
-content = ""
 for message in st.session_state.conversation:
     role = message['role']
     emoji = "👤" if role == "Anda" else "🤖"
     role_text = role.capitalize()
 
-    # Menggunakan HTML untuk mengatur warna teks chat history (misalnya, putih)
-    message_text = f"{emoji.capitalize()} {role_text}: {message['message']}"
-    st.markdown(f"<p style='color: white;'>{message_text}</p>", unsafe_allow_html=True)
-    st.markdown(conversation_html.format(content=content), unsafe_allow_html=True)
 
-    # Script JavaScript untuk autoscroll ke bawah
-    script = """
-    <script>
-    var element = document.querySelector("div");
-    element.scrollTop = element.scrollHeight;
-    </script>
-    """
-    
-    
     # Mengosongkan nilai input setelah tombol diklik
     st.empty()
 
