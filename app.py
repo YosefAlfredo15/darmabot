@@ -781,13 +781,53 @@ for message in st.session_state.conversation:
     # Mengosongkan nilai input setelah tombol diklik
     st.empty()
 
-# Menambahkan tombol panah ke atas untuk autoscroll
-st.markdown(
-    """
-    <a href="#top" style="position: fixed; bottom: 20px; right: 20px; font-size: 24px; color: white;">&#8679;</a>
-    """,
-    unsafe_allow_html=True
-)
+# Tombol untuk autoscroll ke atas
+scroll_up_button = st.button("Autoscroll ke Atas", key="scroll_up")
 
-# Menambahkan elemen anchor dengan id="top" di bagian paling atas
-st.markdown("<div id='top'></div>", unsafe_allow_html=True)
+# Tombol untuk autoscroll ke bawah
+scroll_down_button = st.button("Autoscroll ke Bawah", key="scroll_down")
+
+# CSS untuk menempatkan tombol ke kiri bawah
+css = """
+<style>
+    #scroll_up {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+    }
+
+    #scroll_down {
+        position: fixed;
+        bottom: 10px;
+        left: 60px;
+    }
+</style>
+"""
+
+# Menambahkan CSS ke halaman Streamlit
+st.markdown(css, unsafe_allow_html=True)
+
+# Script JavaScript untuk mengatur autoscroll
+script = """
+<script>
+    // Fungsi untuk autoscroll ke atas
+    function scrollUp() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Fungsi untuk autoscroll ke bawah
+    function scrollDown() {
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+
+    // Mendengarkan klik tombol di Streamlit
+    const scrollUpButton = document.getElementById("scroll_up");
+    const scrollDownButton = document.getElementById("scroll_down");
+
+    scrollUpButton.addEventListener("click", scrollUp);
+    scrollDownButton.addEventListener("click", scrollDown);
+</script>
+"""
+
+# Menambahkan script JavaScript ke halaman Streamlit
+st.markdown(script, unsafe_allow_html=True)
