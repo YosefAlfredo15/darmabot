@@ -637,10 +637,10 @@ def get_day_name_indonesia(weekday):
     return month_names[weekday]
 
 # Fungsi untuk mendapatkan nama hari saat ini dalam bahasa Indonesia
-def get_current_nama_bulan():
+def get_current_namabulan():
     now = datetime.now()
     current_hari = get_day_name_indonesia(now.weekday())
-    return current_nama_bulan
+    return current_namabulan
 
 # Fungsi untuk mendapatkan tahun saat ini
 def get_current_tahun():
@@ -676,8 +676,8 @@ def handle_date_time_queries(user_message):
     elif 'bulan' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang bulan {get_current_bulan()}."
 
-elif 'nama_bulan' in user_message and ('apa' in user_message or 'sekarang' in user_message):
-        return f"Sekarang bulan {get_current_nama_bulan()}."
+elif 'namabulan' in user_message and ('apa' in user_message or 'sekarang' in user_message):
+        return f"Sekarang bulan {get_current_namabulan()}."
     
     elif 'tahun' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang tahun {get_current_tahun()}."
