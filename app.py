@@ -9,7 +9,8 @@ import nltk
 import os
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
-from datetime import datetime
+from datetime import datetime 
+import pytz
 import locale
 from nltk.corpus import stopwords
 nltk.download('punkt')
@@ -604,6 +605,12 @@ def get_current_time():
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     return current_time
+    # Fungsi untuk mendapatkan waktu saat ini di Jakarta
+def get_current_time_jakarta():
+    jakarta_timezone = pytz.timezone('Asia/Jakarta')
+    now_jakarta = datetime.now(jakarta_timezone)
+    current_time_jakarta = now_jakarta.strftime("%H:%M:%S")
+    return current_time_jakarta
 
 # Fungsi untuk mendapatkan nama hari saat ini
 def get_current_hari():
