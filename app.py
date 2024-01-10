@@ -9,7 +9,6 @@ import nltk
 import os
 # Atur zona waktu menjadi Asia/Jakarta
 os.environ['TZ'] = 'Asia/Jakarta'
-from babel.dates import get_day_names
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 from datetime import datetime 
@@ -610,11 +609,15 @@ def get_current_time_jakarta():
     current_time_jakarta = now_jakarta.strftime("%H:%M:%S")
     return current_time_jakarta
 
+# Fungsi untuk mendapatkan nama hari dalam bahasa Indonesia
+def get_day_name_indonesia(weekday):
+    day_names = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
+    return day_names[weekday]
+
 # Fungsi untuk mendapatkan nama hari saat ini dalam bahasa Indonesia
 def get_current_hari():
     now = datetime.now()
-    day_names = get_day_names('wide', locale='id_ID')
-    current_hari = day_names[now.weekday()]
+    current_hari = get_day_name_indonesia(now.weekday())
     return current_hari
     
 def get_current_tanggal():
