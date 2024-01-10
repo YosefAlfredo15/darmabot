@@ -749,7 +749,24 @@ if "conversation" not in st.session_state:
 
 # Form untuk input pengguna
 with st.form(key='my_form'):
-user_message= st.text_input("<p style='color: white;'>Anda:</p>", value="", unsafe_allow_html=True).lower()
+
+# Form untuk input pengguna
+user_message = st.text_input("Anda:", value="").lower()
+
+# Menambahkan CSS untuk mengubah warna teks "Anda:" menjadi putih
+st.markdown(
+    """
+    <style>
+        .stTextInput label {
+            color: white !important;
+        }
+        .stTextInput input {
+            color: white !important;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
     # Tombol kirim
     submit_button = st.form_submit_button("Kirim")
