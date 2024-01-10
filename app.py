@@ -21,7 +21,7 @@ nltk.download('stopwords')
 
 
 # URL gambar background di repositori GitHub
-background_image_url = "https://raw.githubusercontent.com/YosefAlfredo15/darmabot/main/wall3.jpg"  # Ganti dengan URL gambar Anda
+background_image_url = "https://raw.githubusercontent.com/YosefAlfredo15/darmabot/main/wall4.jpg"  # Ganti dengan URL gambar Anda
 
 # Menambahkan gambar sebagai background dengan lebar 100%
 st.markdown(
