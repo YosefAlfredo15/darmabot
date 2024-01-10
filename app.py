@@ -753,17 +753,10 @@ with st.form(key='my_form'):
 # Form untuk input pengguna
 user_message = st.text_input("Anda:", value="").lower()
 
-# Menambahkan CSS untuk mengubah warna teks "Anda:" menjadi putih
+# Menambahkan HTML untuk mengubah warna teks "Anda:" menjadi putih
 st.markdown(
     """
-    <style>
-        div[data-baseweb="input"] input {
-            color: white !important;
-        }
-        div[data-baseweb="label"] {
-            color: white !important;
-        }
-    </style>
+    <p style="color: white;">Anda:</p>
     """,
     unsafe_allow_html=True
 )
