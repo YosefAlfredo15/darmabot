@@ -772,9 +772,10 @@ if submit_button:
 for message in st.session_state.conversation:
     role = message['role']
     emoji = "👤" if role == "Anda" else "🤖"
+    role_text = role.capitalize()
 
     # Menggunakan HTML untuk mengatur warna teks chat history (misalnya, putih)
-    st.markdown(f"**{emoji.capitalize()}:<p style='color: white;'> {role.capitalize()}: <p style='color: white;'>{message['message']}</p>", unsafe_allow_html=True)
-
+    message_text = f"{emoji.capitalize()} {role_text}: {message['message']}"
+    st.markdown(f"<p style='color: white;'>{message_text}</p>", unsafe_allow_html=True)
     # Mengosongkan nilai input setelah tombol diklik
     st.empty()
