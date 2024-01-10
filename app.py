@@ -766,9 +766,8 @@ if submit_button:
         # Menambahkan pesan bot ke dalam percakapan
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
-        # Reset nilai input setelah tombol diklik
-        st.form_message("", key='my_form')  # Menghapus pesan dalam form
+        # Mengosongkan nilai input setelah tombol diklik
+        st.empty()
 
-# Di sini, user_message akan secara otomatis menjadi string kosong setelah form dikirim
-# Di sini, user_message akan secara otomatis menjadi string kosong setelah form dikirim
+# Di sini, user_message akan menjadi string kosong setelah form dikirim
 
