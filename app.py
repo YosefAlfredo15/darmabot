@@ -625,13 +625,7 @@ def get_current_tanggal():
     current_tanggal = now.strftime("%d")
     return current_tanggal
 
-# Fungsi untuk mendapatkan bulan saat ini
-def get_current_bulan():
-    now = datetime.now()
-    current_bulan = now.strftime("%m")
-    return current_bulan
 
-#-----------------------------------------------------------------------------
 # Fungsi untuk mendapatkan nama bulan dalam bahasa Indonesia
 def get_month_name_indonesia(month):
     month_names = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
@@ -669,18 +663,16 @@ def respond(user_message, threshold=3):
         
 # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
 def handle_date_time_queries(user_message):
-    if 'jam' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
+    if 'sekarang bulan apa' in user_message:
+        return f"Sekarang bulan {get_current_namabulan()}."
+    elif 'sekarang bulan berapa' in user_message:
+        return f"Sekarang bulan {str(now.month).zfill(2)}."
+    elif 'jam' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang jam {get_current_time_jakarta()}."
     elif 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
         return f"Sekarang hari {get_current_hari()}."
     elif 'tanggal' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
-        return f"Sekarang tanggal {get_current_tanggal()}."
-    elif 'bulan' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
-        return f"Sekarang bulan {get_current_bulan()}."
-
-    elif 'namabulan' in user_message and ('apa' in user_message or 'sekarang' in user_message):
-        return f"Sekarang bulan {get_current_namabulan()}."
-    
+        return f"Sekarang tanggal {get_current_tanggal()}."    
     elif 'tahun' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang tahun {get_current_tahun()}."
     else:
