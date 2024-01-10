@@ -640,7 +640,6 @@ def respond(user_message, threshold = 3):
     user_message = preprocess_text(user_message.lower())
 
 
-
     matched_keys = [key for key in responses if Levenshtein.distance(key, user_message) < threshold]
 
     # Jika ada kunci yang cocok, pilih respons dari salah satu kunci yang cocok
@@ -658,7 +657,8 @@ def respond(user_message, threshold = 3):
     if 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
         return f"Sekarang hari {get_current_hari()}."
 
-    # Menanggapi pertanyaan tentang tanggal
+# Di luar fungsi, tanggapi pertanyaan tentang tanggal
+def tanggapi_pertanyaan_tanggal(user_message):
     if 'tanggal' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang tanggal {get_current_tanggal()}."
 
