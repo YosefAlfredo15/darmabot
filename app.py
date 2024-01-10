@@ -780,3 +780,14 @@ for message in st.session_state.conversation:
     st.markdown(f"<p style='color: white;'>{message_text}</p>", unsafe_allow_html=True)
     # Mengosongkan nilai input setelah tombol diklik
     st.empty()
+
+# Menambahkan tombol panah ke atas untuk autoscroll
+st.markdown(
+    """
+    <a href="#top" style="position: fixed; bottom: 20px; right: 20px; font-size: 24px; color: white;">&#8679;</a>
+    """,
+    unsafe_allow_html=True
+)
+
+# Menambahkan elemen anchor dengan id="top" di bagian paling atas
+st.markdown("<div id='top'></div>", unsafe_allow_html=True)
