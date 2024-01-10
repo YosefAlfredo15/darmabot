@@ -744,30 +744,32 @@ conversation = []
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
 
-# Input pengguna
-user_message = st.text_input("Anda:", value="").lower()
+# Form untuk input pengguna
+with st.form(key='my_form'):
+    user_message = st.text_input("Anda:", value="").lower()
 
-# Tombol kirim
-if st.button("Kirim"):
-    # Keluar dari chatbot jika input "exit"
-    if user_message == "exit":
-        st.success("Terima kasih telah menggunakan layanan chatbot kami")
-    else:
+    # Tombol kirim
+    submit_button = st.form_submit_button("Kirim")
 
-        # Mengosongkan input teks setelah tombol diklik
-        st.session_state.input_text = ""
-        
-        # Menambahkan pesan pengguna ke dalam percakapan
-        st.session_state.conversation.append({"role": "Anda", "message": user_message})
+    # Tanggapan jika tombol kirim ditekan
+    if submit_button:
+        # Keluar dari chatbot jika input "exit"
+        if user_message == "exit":
+            st.success("Terima kasih telah menggunakan layanan chatbot kami")
+        else:
+            # Menambahkan pesan pengguna ke dalam percakapan
+            st.session_state.conversation.append({"role": "Anda", "message": user_message})
 
-        # Mendapatkan tanggapan dari chatbot
-        bot_response = respond(user_message)
+            # Mendapatkan tanggapan dari chatbot
+            bot_response = respond(user_message)
 
-        # Menambahkan pesan bot ke dalam percakapan
-        st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
+            # Menambahkan pesan bot ke dalam percakapan
+            st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
-        # Mengosongkan input teks setelah tombol diklik
-        st.session_state.input_text = ""
+            # Reset nilai input setelah tombol diklik
+            st.form_message("", key='my_form')  # Menghapus pesan dalam form
+
+# Di sini, user_message akan secara otomatis menjadi string kosong setelah form dikirim
         
 
 # Menampilkan chat history
