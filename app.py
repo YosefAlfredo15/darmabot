@@ -631,6 +631,17 @@ def get_current_bulan():
     current_bulan = now.strftime("%m")
     return current_bulan
 
+# Fungsi untuk mendapatkan nama bulan dalam bahasa Indonesia
+def get_day_name_indonesia(weekday):
+    day_names = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
+    return month_names[weekday]
+
+# Fungsi untuk mendapatkan nama hari saat ini dalam bahasa Indonesia
+def get_current_nama_bulan():
+    now = datetime.now()
+    current_hari = get_day_name_indonesia(now.weekday())
+    return current_nama_bulan
+
 # Fungsi untuk mendapatkan tahun saat ini
 def get_current_tahun():
     now = datetime.now()
@@ -664,6 +675,10 @@ def handle_date_time_queries(user_message):
         return f"Sekarang tanggal {get_current_tanggal()}."
     elif 'bulan' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang bulan {get_current_bulan()}."
+
+elif 'bulan' in user_message and ('apa' in user_message or 'sekarang' in user_message):
+        return f"Sekarang bulan {get_current_nama_bulan()}."
+    
     elif 'tahun' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang tahun {get_current_tahun()}."
     else:
