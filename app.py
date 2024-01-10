@@ -740,8 +740,15 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 # Percakapan antara pengguna dan chatbot
 conversation = []
 
+# Percakapan antara pengguna dan chatbot
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
+
+# Menampilkan chat history
+for message in st.session_state.conversation:
+    role = message['role']
+    emoji = "👤" if role == "Anda" else "🤖"
+    st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
 
 # Form untuk input pengguna
 with st.form(key='my_form'):
@@ -767,13 +774,6 @@ if submit_button:
 
         # Mengosongkan nilai input setelah tombol diklik
         st.empty()
-
-# Menampilkan chat history
-for message in st.session_state.conversation:
-    role = message['role']
-    emoji = "👤" if role == "Anda" else "🤖"
-    st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
-
 
 # Tambahkan elemen HTML untuk tanda panah ke bawah
 st.markdown("""<div id="scrollDown" style="text-align: center; padding-bottom: 10px;">
