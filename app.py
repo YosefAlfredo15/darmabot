@@ -52,6 +52,8 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+# Menambahkan gambar di halaman dengan lebar 100%
+st.image(image_path, width=100, use_container_width=True)
 
 # Menambahkan judul di tengah dengan warna kuning
 st.markdown("<h1 style='text-align: center; color: yellow;'>SI Darma Chatbot</h1>", unsafe_allow_html=True)
