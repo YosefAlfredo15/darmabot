@@ -616,21 +616,20 @@ def get_current_hari():
 # Fungsi untuk mendapatkan tanggal saat ini
 def get_current_tanggal():
     now = datetime.now()
-    current_date = now.strftime("%d")
-    return current_date
-    
+    current_tanggal = now.strftime("%d")
+    return current_tanggal
+
 # Fungsi untuk mendapatkan bulan saat ini
 def get_current_bulan():
     now = datetime.now()
     current_bulan = now.strftime("%m")
     return current_bulan
-    
+
 # Fungsi untuk mendapatkan tahun saat ini
 def get_current_tahun():
     now = datetime.now()
     current_tahun = now.strftime("%Y")
     return current_tahun
-
 
 # Fungsi untuk merespons pertanyaan pengguna
 def respond(user_message, threshold=3):
@@ -649,20 +648,21 @@ def respond(user_message, threshold=3):
     else:
         return default_response()
 
-
-   # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
+# Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
 def handle_date_time_queries(user_message):
     if 'jam' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang jam {get_current_time()}."
     elif 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
         return f"Sekarang hari {get_current_hari()}."
+    elif 'tanggal' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
+        return f"Sekarang tanggal {get_current_tanggal()}."
     elif 'bulan' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang bulan {get_current_bulan()}."
     elif 'tahun' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang tahun {get_current_tahun()}."
     else:
         return None
-    
+
 # Jika tidak ada kunci yang cocok, gunakan respons default
 def default_response():
     return random.choice(responses["default"])
