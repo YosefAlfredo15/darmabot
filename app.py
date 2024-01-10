@@ -656,7 +656,7 @@ def respond(user_message, threshold=3):
 def handle_date_time_queries(user_message):
     if 'jam' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang jam {get_current_time_jakarta()}."
-   if 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
+    elif 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
         return f"Sekarang hari {get_current_hari()}."
     elif 'tanggal' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang tanggal {get_current_tanggal()}."
