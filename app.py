@@ -773,3 +773,26 @@ for message in st.session_state.conversation:
     role = message['role']
     emoji = "👤" if role == "Anda" else "🤖"
     st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
+
+
+# Tambahkan elemen HTML untuk tanda panah ke bawah
+st.markdown("""<div id="scrollDown" style="text-align: center; padding-bottom: 10px;">
+                  <span style="font-size: 24px; cursor: pointer;">🔽</span>
+               </div>""", unsafe_allow_html=True)
+
+st.markdown(
+    """
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#scrollDown').on('click', function() {
+                $('html, body').animate({
+                    scrollTop: $(document).height() - $(window).height()
+                }, 500);
+            });
+        });
+    </script>
+    """,
+    unsafe_allow_html=True
+)
+
