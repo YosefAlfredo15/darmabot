@@ -609,16 +609,13 @@ def get_current_time_jakarta():
     current_time_jakarta = now_jakarta.strftime("%H:%M:%S")
     return current_time_jakarta
 
-
-
-
 # Fungsi untuk mendapatkan nama hari saat ini
 def get_current_hari():
     locale.setlocale(locale.LC_TIME, 'id_ID')
     now = datetime.now()
     current_hari = now.strftime("%A")
     locale.setlocale(locale.LC_TIME, '')
-    return current_hari
+    return current_hari  # Perbaikan: "current_hari" bukan "current_haridef"
 
 # Fungsi untuk mendapatkan tanggal saat ini
 def get_current_tanggal():
@@ -654,12 +651,12 @@ def respond(user_message, threshold=3):
         return random.choice(responses[random.choice(matched_keys)])
     else:
         return default_response()
-
+        
 # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
 def handle_date_time_queries(user_message):
     if 'jam' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang jam {get_current_time_jakarta()}."
-    elif 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
+   elif 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
         return f"Sekarang hari {get_current_hari()}."
     elif 'tanggal' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang tanggal {get_current_tanggal()}."
