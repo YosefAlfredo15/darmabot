@@ -751,7 +751,8 @@ if "conversation" not in st.session_state:
 with st.form(key='my_form'):
 
 # Form untuk input pengguna
-user_message = st.text_input("Anda:", value="", key="user_input")
+
+user_message = st.text_input("Anda:", value="").lower()
 
 # Mengubah warna teks input menjadi putih dengan menggunakan JavaScript
 st.markdown(
