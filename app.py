@@ -37,13 +37,13 @@ st.markdown(
 )
 
 # Path gambar
-image_path = "chatbot.webp"  # Ganti dengan path gambar Anda
+image_url = "https://raw.githubusercontent.com/YosefAlfredo15/darmabot/main/chatbot.webp  
 
 # Menambahkan gambar di tengah halaman dengan lebar 70%
 st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
-        <img src="{image_path}" width="70%" alt="Gambar Chatbot">
+        <img src="{image_url}" width="70%" alt="Gambar Chatbot">
     </div>
     """,
     unsafe_allow_html=True
