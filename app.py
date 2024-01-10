@@ -752,11 +752,11 @@ for message in st.session_state.conversation:
     st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
 
 # Form untuk input pengguna
-with st.form(key='my_form'):
-    user_message = st.text_input("Anda:", value="").lower()
-
-    # Tombol kirim
-    submit_button = st.form_submit_button("Kirim")
+input_container = st.empty()
+form = st.form(key='my_form')
+user_message = form.text_input("Anda:", value="").lower()
+submit_button = form.form_submit_button("Kirim")
+form_container = st.empty()
 
 # Tanggapan jika tombol kirim ditekan
 if submit_button:
@@ -774,7 +774,7 @@ if submit_button:
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
         # Mengosongkan nilai input setelah tombol diklik
-        st.empty()
-
+        input_container.empty()
+        form_container.empty()
 
 
