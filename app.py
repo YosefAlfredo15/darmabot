@@ -749,7 +749,9 @@ if "conversation" not in st.session_state:
 
 # Form untuk input pengguna
 with st.form(key='my_form'):
-    user_message = st.text_input("Anda:", value="").lower()
+    
+
+user_message= st.text_input("<p style='text-align: center; color: white;'>Anda:</p>", unsafe_allow_html=True)
 
     # Tombol kirim
     submit_button = st.form_submit_button("Kirim")
