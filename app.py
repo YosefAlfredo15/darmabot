@@ -602,6 +602,10 @@ def stem_text(text):
 # Melakukan stemming pada setiap nilai dalam kamus
 stemmed_responses = {key: [stem_text(response) for response in responses[key]] for key in responses}
 
+def get_current_time():
+    now = datetime.now()
+    current_time = now.strftime("%H:%M:%S")
+    return current_time
 # Fungsi untuk mendapatkan waktu saat ini di Jakarta
 def get_current_time_jakarta():
     jakarta_timezone = pytz.timezone('Asia/Jakarta')
