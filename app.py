@@ -609,16 +609,22 @@ def get_current_time_jakarta():
     current_time_jakarta = now_jakarta.strftime("%H:%M:%S")
     return current_time_jakarta
 
+# Fungsi untuk mendapatkan nama hari saat ini
 def get_current_hari():
-    # Set locale ke bahasa Indonesia
-    locale.setlocale(locale.LC_TIME, 'id_ID')
+    try:
+        # Set locale ke bahasa Indonesia jika tersedia
+        locale.setlocale(locale.LC_TIME, 'id_ID')
+    except locale.Error:
+        pass  # Abaikan jika locale tidak tersedia
 
-    # Fungsi untuk mendapatkan nama hari saat ini
     now = datetime.now()
     current_hari = now.strftime("%A")
 
-    # Kembalikan locale ke setting awal (default)
-    locale.setlocale(locale.LC_TIME, '')
+    try:
+        # Kembalikan locale ke setting awal (default)
+        locale.setlocale(locale.LC_TIME, '')
+    except locale.Error:
+        pass  # Abaikan jika reset locale tidak berhasil
 
     return current_hari
     
