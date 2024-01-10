@@ -769,13 +769,13 @@ if submit_button:
         # Menambahkan pesan bot ke dalam percakapan
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
-
 # Menampilkan chat history
 for message in st.session_state.conversation:
     role = message['role']
     emoji = "👤" if role == "Anda" else "🤖"
-    # Menggunakan HTML untuk mengatur warna teks respons chatbot (misalnya, kuning)
-    st.markdown(f"**{emoji} {role.capitalize()}**: <p style='color: yellow;'>{message['message']}</p>", unsafe_allow_html=True)
-    
-# Mengosongkan nilai input setelah tombol diklik
+
+    # Menggunakan HTML untuk mengatur warna teks chat history (misalnya, putih)
+    st.markdown(f"**{emoji} {role.capitalize()}**: <p style='color: white;'>{message['message']}</p>", unsafe_allow_html=True)
+
+    # Mengosongkan nilai input setelah tombol diklik
     st.empty()
