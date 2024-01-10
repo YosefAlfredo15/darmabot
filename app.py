@@ -762,6 +762,9 @@ if st.button("Kirim"):
         # Menambahkan pesan bot ke dalam percakapan
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
+        # Mengosongkan input teks setelah tombol diklik
+        st.text_input("Anda:", value="", key='input_text')
+
 # Menampilkan chat history
 for message in st.session_state.conversation:
     role = message['role']
