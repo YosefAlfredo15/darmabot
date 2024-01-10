@@ -740,22 +740,16 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 # Percakapan antara pengguna dan chatbot
 conversation = []
 
-# Percakapan antara pengguna dan chatbot
+# Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
 
-# Menampilkan chat history
-for message in st.session_state.conversation:
-    role = message['role']
-    emoji = "👤" if role == "Anda" else "🤖"
-    st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
-
 # Form untuk input pengguna
-input_container = st.empty()
-form = st.form(key='my_form')
-user_message = form.text_input("Anda:", value="").lower()
-submit_button = form.form_submit_button("Kirim")
-form_container = st.empty()
+with st.form(key='my_form'):
+    user_message = st.text_input("Anda:", value="").lower()
+
+    # Tombol kirim
+    submit_button = st.form_submit_button("Kirim")
 
 # Tanggapan jika tombol kirim ditekan
 if submit_button:
@@ -773,5 +767,10 @@ if submit_button:
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
         # Mengosongkan nilai input setelah tombol diklik
-        input_container.empty()
-        form_container.empty()
+        st.empty()
+
+# Menampilkan chat history
+for message in st.session_state.conversation:
+    role = message['role']
+    emoji = "👤" if role == "Anda" else "🤖"
+    st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
