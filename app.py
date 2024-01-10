@@ -7,6 +7,8 @@ import Levenshtein
 import re
 import nltk
 import os
+# Atur zona waktu menjadi Asia/Jakarta
+os.environ['TZ'] = 'Asia/Jakarta'
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 from datetime import datetime 
@@ -605,7 +607,7 @@ def get_current_time():
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     return current_time
-    # Fungsi untuk mendapatkan waktu saat ini di Jakarta
+# Fungsi untuk mendapatkan waktu saat ini di Jakarta
 def get_current_time_jakarta():
     jakarta_timezone = pytz.timezone('Asia/Jakarta')
     now_jakarta = datetime.now(jakarta_timezone)
@@ -657,8 +659,8 @@ def respond(user_message, threshold=3):
 
 # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
 def handle_date_time_queries(user_message):
-    if 'jam' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
-        return f"Sekarang jam {get_current_time()}."
+        if 'jam' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
+        return f"Sekarang jam {get_current_time_jakarta()}."
     elif 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
         return f"Sekarang hari {get_current_hari()}."
     elif 'tanggal' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
