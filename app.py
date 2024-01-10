@@ -1,4 +1,4 @@
-Aimport streamlit as st
+import streamlit as st
 import numpy as np
 import pandas as pd
 import string
@@ -749,7 +749,8 @@ if "conversation" not in st.session_state:
 
 # Form untuk input pengguna
 with st.form(key='my_form'):
-    user_message = st.text_input("<p style='color: white;'>Anda:</p>", value="").lower()
+    # Menggunakan HTML untuk mengatur warna teks pada elemen input
+    user_message = st.text_input("Anda:", value="", key='input_text').lower()
 
 
     # Tombol kirim
