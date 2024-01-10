@@ -599,45 +599,42 @@ def stem_text(text):
 # Melakukan stemming pada setiap nilai dalam kamus
 stemmed_responses = {key: [stem_text(response) for response in responses[key]] for key in responses}
 
+# Fungsi untuk mendapatkan waktu saat ini
 def get_current_time():
-    # Fungsi untuk mendapatkan waktu saat ini
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     return current_time
 
+# Fungsi untuk mendapatkan nama hari saat ini
 def get_current_hari():
-    # Set locale ke bahasa Indonesia
     locale.setlocale(locale.LC_TIME, 'id_ID')
-
-    # Fungsi untuk mendapatkan nama hari saat ini
     now = datetime.now()
     current_hari = now.strftime("%A")
-
-    # Kembalikan locale ke setting awal (default)
     locale.setlocale(locale.LC_TIME, '')
-
     return current_hari
 
+# Fungsi untuk mendapatkan tanggal saat ini
 def get_current_tanggal():
-    # Fungsi untuk mendapatkan tanggal saat ini
     now = datetime.now()
     current_date = now.strftime("%d")
     return current_date
+    
+# Fungsi untuk mendapatkan bulan saat ini
 def get_current_bulan():
-    # Fungsi untuk mendapatkan bulan saat ini
     now = datetime.now()
-    current_date = now.strftime("%m")
-    return current_date
+    current_bulan = now.strftime("%m")
+    return current_bulan
+    
+# Fungsi untuk mendapatkan tahun saat ini
 def get_current_tahun():
-    # Fungsi untuk mendapatkan tahun saat ini
     now = datetime.now()
-    current_date = now.strftime("%Y")
-    return current_date
+    current_tahun = now.strftime("%Y")
+    return current_tahun
 
 
-def respond(user_message, threshold = 3):
+# Fungsi untuk merespons pertanyaan pengguna
+def respond(user_message, threshold=3):
     user_message = preprocess_text(user_message.lower())
-
 
     matched_keys = [key for key in responses if Levenshtein.distance(key, user_message) < threshold]
 
@@ -648,31 +645,22 @@ def respond(user_message, threshold = 3):
         return random.choice(responses["default"])
 
 
-    # Menanggapi pertanyaan tentang jam
+   # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
+def handle_date_time_queries(user_message):
     if 'jam' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang jam {get_current_time()}."
-
-    # Menanggapi pertanyaan tentang hari
-    if 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
+    elif 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
         return f"Sekarang hari {get_current_hari()}."
-
-    # Menanggapi pertanyaan tentang tanggal
-    if 'bulan' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
+    elif 'bulan' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang bulan {get_current_bulan()}."
-
-    # Menanggapi pertanyaan tentang tanggal
-    if 'bulan' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
-        return f"Sekarang bulan {get_current_bulan()}."
-
-    # Menanggapi pertanyaan tentang tanggal
-    if 'tahun' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
+    elif 'tahun' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang tahun {get_current_tahun()}."
+    else:
+        return None
     
-    
-    
-        # Jika tidak ada kunci yang cocok, gunakan respons default
-    else :
-        return random.choice(responses["default"])
+# Jika tidak ada kunci yang cocok, gunakan respons default
+def default_response():
+    return random.choice(responses["default"])
 
 
 
