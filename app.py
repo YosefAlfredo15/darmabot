@@ -293,9 +293,6 @@ responses = {
     "okelah jika begitu" : ["Baik, ada lagi yang ingin anda tanyakan?"],
 
 
-
-
-
     "bertanya" :["Silahkan","Apa yang anda ingin tanyakan?"],
     "bertanya dong" :["Silahkan","Apa yang anda ingin tanyakan?"],
     "bertanya boleh" :["Silahkan","Apa yang anda ingin tanyakan?"],
@@ -319,9 +316,6 @@ responses = {
     "saya mau tanya" :["Silahkan","Apa yang anda ingin tanyakan?"],
     "saya mau tanya dong" :["Silahkan","Apa yang anda ingin tanyakan?"],
     "saya mau tanya boleh" :["Silahkan","Apa yang anda ingin tanyakan?"],
-    
-    
-
     
     
     "pengumuman ukdc" :  ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik link ini https://siakad.ukdc.ac.id/spmbfront/pengumuman"], 
@@ -381,7 +375,7 @@ responses = {
     "apa visi kampus darma cendika" : ["Visi = “Menjadi Universitas yang unggul dalam mengembangkan characterpreneurship di Indonesia."],
     "apa misi kampus darma cendika" : ["Misi = Menyelenggarakan pendidikan tinggi yang integratif guna menghasilkan lulusan yang berkarakter wirausaha yang jujur, peduli dan bertanggung jawab. b. Menciptakan ekosistem pendidikan yang kolaboratif dan kondusif untuk mengembangkan budaya inovasi. c. Mewujudkan kualitas dosen dan tenaga kependidikan yang unggul berdasarkan nilai-nilai kebenaran dan kasih sayang. d. Mengoptimalkan civitas akademika dan pemangku kepentingan dalam melaksanakan tata kelola perguruan tinggi yang kredibel, transparan, akuntabel, bertanggung jawab, dan berkeadilan secara berkelanjutan. e. Membangun kemitraan dalam rangka meningkatkan kesejahteraan masyarakat."],
     "apa misi kampus darma cendika" : ["Misi = Menyelenggarakan pendidikan tinggi yang integratif guna menghasilkan lulusan yang berkarakter wirausaha yang jujur, peduli dan bertanggung jawab. b. Menciptakan ekosistem pendidikan yang kolaboratif dan kondusif untuk mengembangkan budaya inovasi. c. Mewujudkan kualitas dosen dan tenaga kependidikan yang unggul berdasarkan nilai-nilai kebenaran dan kasih sayang. d. Mengoptimalkan civitas akademika dan pemangku kepentingan dalam melaksanakan tata kelola perguruan tinggi yang kredibel, transparan, akuntabel, bertanggung jawab, dan berkeadilan secara berkelanjutan. e. Membangun kemitraan dalam rangka meningkatkan kesejahteraan masyarakat."],
-    "apa visi dan misi kampus darma cendika" : ["Untuk Visi dan Misi di kampus ukdc anda bisa mengakses link ini  https://ukdc.ac.id/visi-misi/"],
+    "apa visi dan misi kampus darma cendika" : ["Untuk Visi dan Misi di kampus ukdc anda bisa mengakses link ini : https://ukdc.ac.id/visi-misi/"],
     "sebutkan visi kampus ukdc" : ["Visi : “Menjadi Universitas yang unggul dalam mengembangkan characterpreneurship di Indonesia."],
     "sebutkan misi kampus ukdc": ["Misi :Menyelenggarakan pendidikan tinggi yang integratif guna menghasilkan lulusan yang berkarakter wirausaha yang jujur, peduli dan bertanggung jawab. b. Menciptakan ekosistem pendidikan yang kolaboratif dan kondusif untuk mengembangkan budaya inovasi. c. Mewujudkan kualitas dosen dan tenaga kependidikan yang unggul berdasarkan nilai-nilai kebenaran dan kasih sayang. d. Mengoptimalkan civitas akademika dan pemangku kepentingan dalam melaksanakan tata kelola perguruan tinggi yang kredibel, transparan, akuntabel, bertanggung jawab, dan berkeadilan secara berkelanjutan. e. Membangun kemitraan dalam rangka meningkatkan kesejahteraan masyarakat."],
     "sebutkan visi dan misi kampus ukdc" : ["Untuk Visi dan Misi di kampus ukdc anda bisa mengakses link ini : https://ukdc.ac.id/visi-misi/"],
@@ -416,13 +410,13 @@ responses = {
     "persyaratan pendaftaran di ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     "persyaratan pendaftaran ukdc" : ["Anda dapat melihat syarat pendaftaran di https://penmaru.ukdc.ac.id/?page_id=25"],
     
-    
+
     
     "info pendaftaran" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "info pendafaran di ukdc" :["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "informasi pendaftaran" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "informasi pendaftaran di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
-    "bagaiamana cara mendaftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
+    "bagaimana cara mendaftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "daftar di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "saya mau daftar" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "saya mau daftar" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
@@ -456,7 +450,6 @@ responses = {
     "langkah langkah pendaftaran di ukdc" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     "langkah langkah pendaftaran" : ["Anda dapat mengakses jalur pendaftaran di https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"],
     
-
 
     
     "informasi formulir pendaftaran" : ["Formulir pendaftaran ada di https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603"],
@@ -495,6 +488,7 @@ responses = {
     "Informasi biaya kuliah di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
     "Tarif pendaftaran online" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
     "Tarif kuliah di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "berapa uang kuliah di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
 
 
 
@@ -544,7 +538,7 @@ responses = {
 
 
     #Default untuk jawaban dari pertanyaan yang tidak ada di dataset
-    "default" : ["Apakah ada sesuatu yang anda ingin tanyakan kepada saya? contoh : apa syarat masuk ukdc?, bagaiamana cara mendaftar di ukdc?, atau berapa uang kuliah di ukdc?"],
+    "default" : ["Apakah ada sesuatu yang anda ingin tanyakan kepada saya? contoh : apa syarat masuk ukdc?, bagaimana cara mendaftar di ukdc?, atau berapa uang kuliah di ukdc?"],
 
 
 
