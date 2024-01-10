@@ -751,21 +751,23 @@ with st.form(key='my_form'):
     # Tombol kirim
     submit_button = st.form_submit_button("Kirim")
 
-# Tanggapan jika tombol kirim ditekan
-if submit_button:
-    # Keluar dari chatbot jika input "exit"
-    if user_message == "exit":
-        st.success("Terima kasih telah menggunakan layanan chatbot kami")
-    else:
-        # Menambahkan pesan pengguna ke dalam percakapan
-        st.session_state.conversation.append({"role": "Anda", "message": user_message})
+    # Tanggapan jika tombol kirim ditekan
+    if submit_button:
+        # Keluar dari chatbot jika input "exit"
+        if user_message == "exit":
+            st.success("Terima kasih telah menggunakan layanan chatbot kami")
+        else:
+            # Menambahkan pesan pengguna ke dalam percakapan
+            st.session_state.conversation.append({"role": "Anda", "message": user_message})
 
-        # Mendapatkan tanggapan dari chatbot
-        bot_response = respond(user_message)
+            # Mendapatkan tanggapan dari chatbot
+            bot_response = respond(user_message)
 
-        # Menambahkan pesan bot ke dalam percakapan
-        st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
+            # Menambahkan pesan bot ke dalam percakapan
+            st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
-        # Mengosongkan nilai input setelah tombol diklik
-        st.empty()
+            # Reset nilai input setelah tombol diklik
+            st.form_message("", key='my_form')  # Menghapus pesan dalam form
+
+# Di sini, user_message akan secara otomatis menjadi string kosong setelah form dikirim
 
