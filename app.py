@@ -17,22 +17,21 @@ nltk.download('stopwords')
 
 
 
-# Path gambar background
-background_image_path = "bot.webp"  # Ganti dengan path gambar Anda
+# URL gambar background di repositori GitHub
+background_image_url = "https://raw.githubusercontent.com/username/repository/main/bot.webp"  # Ganti dengan URL gambar Anda
 
 # Menambahkan gambar sebagai background dengan lebar 100%
 st.markdown(
     f"""
     <style>
     .stApp {{
-        background-image: url('{background_image_path}');
-
+        background-image: url('{background_image_url}');
+        background-size: cover;  /* Untuk menutupi seluruh area background */
     }}
     </style>
     """,
     unsafe_allow_html=True
 )
-
 
 # with open("D:/TUGAS AKHIR/desain.html", "r") as file:
 #     html_code = file.read()
