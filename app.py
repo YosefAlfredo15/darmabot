@@ -739,37 +739,43 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 # Percakapan antara pengguna dan chatbot
 conversation = []
 
-# Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
+# Percakapan antara pengguna dan chatbot
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
 
-# Form untuk input pengguna
-with st.form(key='my_form'):
-    user_message = st.text_input("Anda:", value="").lower()
+# Layout aplikasi dengan kolom
+col1, col2 = st.columns([3, 7])
 
-    # Tombol kirim
-    submit_button = st.form_submit_button("Kirim")
+# Menampilkan chat history di kolom kiri
+with col1:
+    st.header("Chat History")
+    for message in st.session_state.conversation:
+        role = message['role']
+        emoji = "👤" if role == "Anda" else "🤖"
+        st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
 
-# Tanggapan jika tombol kirim ditekan
-if submit_button:
-    # Keluar dari chatbot jika input "exit"
-    if user_message == "exit":
-        st.success("Terima kasih telah menggunakan layanan chatbot kami")
-    else:
-        # Menambahkan pesan pengguna ke dalam percakapan
-        st.session_state.conversation.append({"role": "Anda", "message": user_message})
+# Form untuk input pengguna di kolom kanan
+with col2:
+    st.header("Chatbot")
+    with st.form(key='my_form'):
+        user_message = st.text_input("Anda:", value="").lower()
+        # Tombol kirim
+        submit_button = st.form_submit_button("Kirim")
 
-        # Mendapatkan tanggapan dari chatbot
-        bot_response = respond(user_message)
+    # Tanggapan jika tombol kirim ditekan
+    if submit_button:
+        # Keluar dari chatbot jika input "exit"
+        if user_message == "exit":
+            st.success("Terima kasih telah menggunakan layanan chatbot kami")
+        else:
+            # Menambahkan pesan pengguna ke dalam percakapan
+            st.session_state.conversation.append({"role": "Anda", "message": user_message})
 
-        # Menambahkan pesan bot ke dalam percakapan
-        st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
+            # Mendapatkan tanggapan dari chatbot
+            bot_response = respond(user_message)
 
-        # Mengosongkan nilai input setelah tombol diklik
-        st.empty()
+            # Menambahkan pesan bot ke dalam percakapan
+            st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
-# Menampilkan chat history
-for message in st.session_state.conversation:
-    role = message['role']
-    emoji = "👤" if role == "Anda" else "🤖"
-    st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
+            # Mengosongkan nilai input setelah tombol diklik
+            st.empty()
