@@ -749,12 +749,11 @@ if "conversation" not in st.session_state:
 
 # Form untuk input pengguna
 with st.form(key='my_form'):
+    user_message = st.text_input("Anda:", value="").lower()
 
-# Form untuk input pengguna
-user_message = st.text_input("Anda:", value="").lower()
+    # Tombol kirim
+    submit_button = st.form_submit_button("Kirim")
 
-# Tombol kirim
-submit_button = st.form_submit_button("Kirim")
 
 # Tanggapan jika tombol kirim ditekan
 if submit_button:
