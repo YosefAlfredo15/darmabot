@@ -740,9 +740,16 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 # Percakapan antara pengguna dan chatbot
 conversation = []
 
-# Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
+
+# Percakapan antara pengguna dan chatbot
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
+
+# Menampilkan chat history
+for message in st.session_state.conversation:
+    role = message['role']
+    emoji = "👤" if role == "Anda" else "🤖"
+    st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
 
 # Form untuk input pengguna
 with st.form(key='my_form'):
@@ -768,12 +775,6 @@ if submit_button:
 
         # Mengosongkan nilai input setelah tombol diklik
         st.empty()
-
-# Menampilkan chat history
-for message in st.session_state.conversation:
-    role = message['role']
-    emoji = "👤" if role == "Anda" else "🤖"
-    st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
 
 
 
