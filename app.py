@@ -736,7 +736,6 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 
 
 
-# Percakapan antara pengguna dan chatbot
 conversation = []
 
 # Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
@@ -772,9 +771,4 @@ if submit_button:
 for message in st.session_state.conversation:
     role = message['role']
     emoji = "👤" if role == "Anda" else "🤖"
-    st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
-
-            st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
-
-            # Mengosongkan nilai input setelah tombol diklik
-            st.empty()
+    st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}") 
