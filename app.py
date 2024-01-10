@@ -739,6 +739,7 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 
 # Percakapan antara pengguna dan chatbot
 conversation = []
+
 # Inisialisasi session_state jika belum ada
 if 'conversation' not in st.session_state:
     st.session_state.conversation = []
