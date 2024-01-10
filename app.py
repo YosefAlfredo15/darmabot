@@ -36,15 +36,11 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
 # Path gambar
 image_path = "chatbot.webp"  # Ganti dengan path gambar Anda
 
-# Mendapatkan lebar halaman
-page_width = st.beta_get_page_width()
-
-# Menambahkan gambar di tengah halaman dengan lebar 100%
-st.image(image_path, width=page_width)
+# Menambahkan gambar di halaman dengan lebar 100%
+st.image(image_path, width=100)
 
 # Menambahkan judul di tengah dengan warna kuning
 st.markdown("<h1 style='text-align: center; color: yellow;'>SI Darma Chatbot</h1>", unsafe_allow_html=True)
