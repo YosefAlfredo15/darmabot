@@ -740,7 +740,7 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 # Percakapan antara pengguna dan chatbot
 conversation = []
 
-# Inisialisasi percakapan pada sesi pertama
+# Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
 
@@ -763,7 +763,8 @@ if st.button("Kirim"):
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
         # Mengosongkan input teks setelah tombol diklik
-        st.text_input("Anda:", value="", key='input_text')
+        st.session_state.input_text = ""
+        
 
 # Menampilkan chat history
 for message in st.session_state.conversation:
