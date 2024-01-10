@@ -676,7 +676,7 @@ def handle_date_time_queries(user_message):
     elif 'bulan' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
         return f"Sekarang bulan {get_current_bulan()}."
 
-elif 'bulan' in user_message and ('apa' in user_message or 'sekarang' in user_message):
+elif 'nama_bulan' in user_message and ('apa' in user_message or 'sekarang' in user_message):
         return f"Sekarang bulan {get_current_nama_bulan()}."
     
     elif 'tahun' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
