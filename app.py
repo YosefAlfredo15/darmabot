@@ -769,7 +769,15 @@ if submit_button:
         # Menambahkan pesan bot ke dalam percakapan
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
+        # Menampilkan chat history dengan autoscroll ke bawah
+        conversation_html = """
+        <div style="height: 300px; overflow-y: auto;">
+        {content}
+        </div>
+        """
+
 # Menampilkan chat history
+content = ""
 for message in st.session_state.conversation:
     role = message['role']
     emoji = "👤" if role == "Anda" else "🤖"
@@ -778,56 +786,18 @@ for message in st.session_state.conversation:
     # Menggunakan HTML untuk mengatur warna teks chat history (misalnya, putih)
     message_text = f"{emoji.capitalize()} {role_text}: {message['message']}"
     st.markdown(f"<p style='color: white;'>{message_text}</p>", unsafe_allow_html=True)
+    st.markdown(conversation_html.format(content=content), unsafe_allow_html=True)
+
+    # Script JavaScript untuk autoscroll ke bawah
+    script = """
+    <script>
+    var element = document.querySelector("div");
+    element.scrollTop = element.scrollHeight;
+    </script>
+    """
+    
+    
     # Mengosongkan nilai input setelah tombol diklik
     st.empty()
 
-# Tombol untuk autoscroll ke atas
-scroll_up_button = st.button("Autoscroll ke Atas", key="scroll_up")
 
-# Tombol untuk autoscroll ke bawah
-scroll_down_button = st.button("Autoscroll ke Bawah", key="scroll_down")
-
-# CSS untuk menempatkan tombol ke kiri bawah
-css = """
-<style>
-    #scroll_up {
-        position: fixed;
-        bottom: 10px;
-        left: 10px;
-    }
-
-    #scroll_down {
-        position: fixed;
-        bottom: 10px;
-        left: 60px;
-    }
-</style>
-"""
-
-# Menambahkan CSS ke halaman Streamlit
-st.markdown(css, unsafe_allow_html=True)
-
-# Script JavaScript untuk mengatur autoscroll
-script = """
-<script>
-    // Fungsi untuk autoscroll ke atas
-    function scrollUp() {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    // Fungsi untuk autoscroll ke bawah
-    function scrollDown() {
-        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
-    }
-
-    // Mendengarkan klik tombol di Streamlit
-    const scrollUpButton = document.getElementById("scroll_up");
-    const scrollDownButton = document.getElementById("scroll_down");
-
-    scrollUpButton.addEventListener("click", scrollUp);
-    scrollDownButton.addEventListener("click", scrollDown);
-</script>
-"""
-
-# Menambahkan script JavaScript ke halaman Streamlit
-st.markdown(script, unsafe_allow_html=True)
