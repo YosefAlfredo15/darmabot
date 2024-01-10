@@ -757,10 +757,10 @@ user_message = st.text_input("Anda:", value="").lower()
 st.markdown(
     """
     <style>
-        .stTextInput label {
+        div[data-baseweb="input"] input {
             color: white !important;
         }
-        .stTextInput input {
+        div[data-baseweb="label"] {
             color: white !important;
         }
     </style>
