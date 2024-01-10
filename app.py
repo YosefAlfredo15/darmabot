@@ -767,8 +767,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
-
     # Tombol kirim
     submit_button = st.form_submit_button("Kirim")
 
