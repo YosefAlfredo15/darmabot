@@ -636,13 +636,18 @@ def get_current_tahun():
 def respond(user_message, threshold=3):
     user_message = preprocess_text(user_message.lower())
 
+    # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
+    date_time_response = handle_date_time_queries(user_message)
+    if date_time_response:
+        return date_time_response
+
     matched_keys = [key for key in responses if Levenshtein.distance(key, user_message) < threshold]
 
     # Jika ada kunci yang cocok, pilih respons dari salah satu kunci yang cocok
     if matched_keys:
         return random.choice(responses[random.choice(matched_keys)])
     else:
-        return random.choice(responses["default"])
+        return default_response()
 
 
    # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
