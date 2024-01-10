@@ -657,10 +657,9 @@ def respond(user_message, threshold = 3):
     if 'hari' in user_message and ('apa' in user_message or 'sekarang' in user_message):
         return f"Sekarang hari {get_current_hari()}."
 
-# Di luar fungsi, tanggapi pertanyaan tentang tanggal
-def tanggapi_pertanyaan_tanggal(user_message):
-    if 'tanggal' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
-        return f"Sekarang tanggal {get_current_tanggal()}."
+    # Menanggapi pertanyaan tentang tanggal
+    if 'bulan' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
+        return f"Sekarang bulan {get_current_bulan()}."
 
     # Menanggapi pertanyaan tentang tanggal
     if 'bulan' in user_message and ('berapa' in user_message or 'sekarang' in user_message):
