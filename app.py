@@ -740,8 +740,7 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 # Percakapan antara pengguna dan chatbot
 conversation = []
 
-# Inisialisasi session_state jika belum ada
-if 'conversation' not in st.session_state:
+if "conversation" not in st.session_state:
     st.session_state.conversation = []
 
 # Form untuk input pengguna
@@ -769,5 +768,8 @@ if submit_button:
         # Mengosongkan nilai input setelah tombol diklik
         st.empty()
 
-# Di sini, user_message akan menjadi string kosong setelah form dikirim
-
+# Menampilkan chat history
+for message in st.session_state.conversation:
+    role = message['role']
+    emoji = "👤" if role == "Anda" else "🤖"
+    st.markdown(f"**{emoji} {role.capitalize()}**: {message['message']}")
