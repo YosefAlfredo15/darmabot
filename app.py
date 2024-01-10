@@ -36,10 +36,10 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Path gambar
-image_url = "https://raw.githubusercontent.com/YosefAlfredo15/darmabot/main/chatbot.webp  
+# URL gambar dari GitHub
+image_url = "https://raw.githubusercontent.com/username/repo/main/path/to/chatbot.webp"
 
-# Menambahkan gambar di tengah halaman dengan lebar 70%
+# Menambahkan gambar dengan lebar 70%
 st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
@@ -48,7 +48,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
 
 # Menambahkan judul di tengah dengan warna kuning
 # Menambahkan gambar di halaman utama
