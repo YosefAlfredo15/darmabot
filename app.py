@@ -43,7 +43,7 @@ image_url = "https://raw.githubusercontent.com/YosefAlfredo15/darmabot/main/chat
 st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
-        <img src="{image_url}" width="40%" alt="Gambar Chatbot">
+        <img src="{image_url}" width="20%" alt="Gambar Chatbot">
     </div>
     """,
     unsafe_allow_html=True
