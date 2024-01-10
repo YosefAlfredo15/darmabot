@@ -750,20 +750,20 @@ if "conversation" not in st.session_state:
 # Form untuk input pengguna
 with st.form(key='my_form'):
 
-# Mendefinisikan CSS untuk mengubah warna teks input menjadi putih
-    st.markdown(
-        """
-        <style>
-        input[type="text"] {
-            color: white;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
-    
-    # Menampilkan input pengguna dengan warna teks putih
-    user_message = st.text_input("Anda:", value="").lower()
+# Form untuk input pengguna
+user_message = st.text_input("Anda:", value="", key="user_input")
+
+# Mengubah warna teks input menjadi putih dengan menggunakan JavaScript
+st.markdown(
+    f"""
+    <style>
+        #root > div > div > div:nth-child(2) > div > div > div:nth-child(4) > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div:nth-child(2) > div > div:nth-child(2) > div > div > div > input {{
+            color: white !important;
+        }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
     # Tombol kirim
     submit_button = st.form_submit_button("Kirim")
