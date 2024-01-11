@@ -627,6 +627,10 @@ def get_current_namabulan():
     now = datetime.now()
     current_namabulan = get_month_name_indonesia(now.month)
     return current_namabulan
+
+    def get_current_waktu
+    now = datetime.now()
+    cureent_nama
  #--------------------------------------------------------------------------
 
 # Fungsi untuk mendapatkan tahun saat ini
@@ -762,8 +766,7 @@ if submit_button:
 
         # Mengosongkan nilai input setelah tombol diklik
         st.markdown("<script>document.getElementById('user_input').value = '';</script>", unsafe_allow_html=True)
-       
-
+        
 # Menampilkan chat history
 for message in st.session_state.conversation:
     role = message['role']
