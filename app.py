@@ -739,7 +739,6 @@ if "conversation" not in st.session_state:
     st.session_state.conversation = []
 
     
-
 # Form untuk input pengguna
 with st.form(key='my_form'):
     user_message = st.text_input("Anda:", value="").lower()
@@ -762,9 +761,17 @@ if submit_button:
         # Menambahkan pesan bot ke dalam percakapan
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
         
-        user_message = st.text_input("Anda:", value="", key="new_input").lower()
+        # Mengosongkan nilai input setelah tombol diklik menggunakan JavaScript
+        st.markdown(
+            """
+            <script>
+                document.getElementById('my_form').reset();
+            </script>
+            """,
+            unsafe_allow_html=True
+        )
 
-
+       
 
 # Menampilkan chat history
 for message in st.session_state.conversation:
