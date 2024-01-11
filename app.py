@@ -738,10 +738,23 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
 
+    
+# Menambahkan CSS untuk mengubah warna teks "Anda:" menjadi putih
+st.markdown(
+    """
+    <style>
+        label[for="my_form-text_input"] {
+            color: white;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Form untuk input pengguna
 with st.form(key='my_form'):
     user_message = st.text_input("Anda:", value="").lower()
-
+    
     # Tombol kirim
     submit_button = st.form_submit_button("Kirim")
 
