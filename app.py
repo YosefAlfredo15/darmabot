@@ -743,15 +743,22 @@ if "conversation" not in st.session_state:
 # Form untuk input pengguna
 with st.form(key='my_form'):
     st.markdown(
-        """
-        <style>
-            label[for="my_form-text_input"] {
-                color: white !important;
+    """
+    <script>
+        // Gunakan JavaScript untuk mengubah warna teks input
+        document.addEventListener("DOMContentLoaded", function() {
+            var inputLabel = document.querySelector(".stTextInput label[for=my_form-text_input]");
+            var inputField = document.querySelector(".stTextInput input#my_form-text_input");
+
+            if (inputLabel && inputField) {
+                inputLabel.style.color = "white";
+                inputField.style.color = "white";
             }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+        });
+    </script>
+    """,
+    unsafe_allow_html=True
+)
     user_message = st.text_input("Anda:", value="").lower()
     
     # Tombol kirim
