@@ -432,7 +432,6 @@ responses = {
     "apakah saya bisa mendaftar di ukdc" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
     "Pendaftaran di kampus UKDC" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
     "Pendaftaran di univeristas UKDC" :["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
-    "Pendaftaran di univeristas UKDC" :["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],,
     "Bagaimana mendaftar di kampus ukdc" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
     "Bagaimana daftar di ukdc" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
     "cara saya masuk ukdc" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
