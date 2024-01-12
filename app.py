@@ -465,8 +465,12 @@ responses = {
     "Adakah formulir pendaftaran" : ["Formulir pendaftaran ada di <a href= https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603 target=\"_blank\">Lihat dan Cetak Formulir Pendaftaran </a>"],
     "Berikan saya formulir pendaftaran" : ["Formulir pendaftaran ada di <a href= https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603 target=\"_blank\">Lihat dan Cetak Formulir Pendaftaran </a>"],
     
-#---
+
     "biaya" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "biaya pendaftaran di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    "biaya pendaftaran ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "], 
+    "biaya pendaftaran" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+    
     "infromasi mengenai pembayaran kuliah" :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
     "bayar kuliah" :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view"],
     "cara bayar kuliah " :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view  "],
