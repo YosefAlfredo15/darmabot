@@ -312,7 +312,7 @@ responses = {
     
     
     "pengumuman ukdc" :  ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik link ini https://siakad.ukdc.ac.id/spmbfront/pengumuman"], 
-    "informasi ukdc" : ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik link ini <a href="https://siakad.ukdc.ac.id/spmbfront/pengumuman" target="_blank">link ini</a>."], 
+    "informasi ukdc" : ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik <a href="https://siakad.ukdc.ac.id/spmbfront/pengumuman" target="_blank">link ini</a>"], 
     "info ukdc" : ["Silahkan, Jika anda ingin mengetahui informasi dan pengumuman tentang UKDC silahkan klik link ini https://siakad.ukdc.ac.id/spmbfront/pengumuman"],
     "saya mau tau info" : ["Silahkan, Informasi apa yang anda ingin tanyakan?"],
     "mau mau tau info tentang ukd" : ["Silahkan, Informasi apa yang anda ingin tanyakan?"],
