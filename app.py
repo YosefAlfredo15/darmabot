@@ -859,24 +859,22 @@ def get_current_namabulan():
     current_tahun = now.strftime("%Y")
     return current_tahun
 
+# Fungsi untuk merespons pertanyaan pengguna
+def respond(user_message, threshold = 3):
+    user_message = preprocess_text(user_message.lower())
+
     # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
     date_time_response = handle_date_time_queries(user_message)
     if date_time_response:
-    return date_time_response
-
-# Fungsi untuk merespons pertanyaan pengguna
-def respond(user_message, threshold=3):
-    user_message = preprocess_text(user_message.lower())
+        return date_time_response
 
     matched_keys = [key for key in responses if Levenshtein.distance(key, user_message) < threshold]
 
     # Jika ada kunci yang cocok, pilih respons dari salah satu kunci yang cocok
     if matched_keys:
         return random.choice(responses[random.choice(matched_keys)])
-    elif "default" in responses and responses["default"]:
-        return random.choice(responses["default"])
     else:
-        return "Maaf, tidak ada respons default yang tersedia."
+        return default_response()
 
         
 # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
