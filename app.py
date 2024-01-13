@@ -957,6 +957,10 @@ st.sidebar.markdown("[virtual Campus Tour 360](https://ukdc.ac.id/virtual-campus
 st.sidebar.markdown("---")
 st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 
+# Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
+if "conversation" not in st.session_state:
+    st.session_state.conversation = []
+    
 # Form untuk input pengguna
 with st.form(key='my_form'):
     user_message = st.text_input("Anda:", value="", key="user_input").lower()
