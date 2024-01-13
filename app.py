@@ -759,17 +759,6 @@ responses = {
 
 }
 
-# Fungsi stopword removal
-def remove_stopwords(tokens):
-    stop_words = set(stopwords.words('english'))
-    filtered_tokens = [token for token in tokens if token not in stop_words]
-    return filtered_tokens
-
-# Fungsi casefolding
-def casefolding(tokens):
-    lowercased_tokens = [token.lower() for token in tokens]
-    return lowercased_tokens
-
 # Fungsi preprocessing
 def preprocess_text(text):
     # Menghapus karakter non-alfabet
@@ -778,14 +767,25 @@ def preprocess_text(text):
     text = text.lower()
     return text
 
+# Preprocessing responses
+preprocessed_responses = {key: [remove_stopwords(casefolding(tokenize_text(preprocess_text(response)))) for response in responses[key]] for key in responses}
+
+# Fungsi casefolding
+def casefolding(tokens):
+    lowercased_tokens = [token.lower() for token in tokens]
+    return lowercased_tokens
+
 # Fungsi Tokenisasi
 def tokenize_text(text):
     # Menggunakan tokenisasi kata dari NLTK
     tokens = word_tokenize(text)
     return tokens
-
-# Preprocessing responses
-preprocessed_responses = {key: [remove_stopwords(casefolding(tokenize_text(preprocess_text(response)))) for response in responses[key]] for key in responses}
+    
+# Fungsi stopword removal
+def remove_stopwords(tokens):
+    stop_words = set(stopwords.words('english'))
+    filtered_tokens = [token for token in tokens if token not in stop_words]
+    return filtered_tokens
 
 # Fungsi stemming
 def stem_text(text):
@@ -803,8 +803,14 @@ def stem_text(text):
 
     return stemmed_text
 
-# Melakukan stemming pada setiap nilai dalam kamus
-stemmed_responses = {key: [stem_text(response) for response in responses[key]] for key in responses}
+    # Melakukan stemming pada setiap nilai dalam kamus
+    stemmed_responses = {key: [stem_text(response) for response in responses[key]] for key in responses}
+
+
+
+
+
+
 
 
 # Fungsi untuk mendapatkan waktu saat ini di Jakarta
