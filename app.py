@@ -515,7 +515,6 @@ responses = {
     
     
     "jadwal penerimaan": ["Jadwal penerimaan mahasiswa baru kami biasanya dibuka setiap tahun pada bulan Mei dan ditutup pada bulan Agustus. Pastikan untuk memeriksa situs web resmi kami atau menghubungi bagian penerimaan untuk mendapatkan tanggal-tanggal penting, Informasi lebih lanjut dapat ditemukan di situs web resmi kami (https://www.ukdc.ac.id)."],
-    "biaya kuliah": ["Biaya kuliah di universitas kami bervariasi tergantung pada program studi yang Anda pilih. Informasi lebih lanjut tentang biaya kuliah dan komponennya dapat ditemukan di brosur penerimaan atau Kunjungi [situs web resmi universitas kami](https://www.ukdc.ac.id) untuk informasi lebih lanjut."],
     "beasiswa": ["Kami menyediakan berbagai program beasiswa untuk mahasiswa baru yang berprestasi. Informasi tentang syarat dan pendaftaran beasiswa dapat ditemukan di kantor penerimaan atau situs web resmi kami di (https://www.ukdc.ac.id)."],
     "prodi favorit": ["Program studi yang paling diminati oleh mahasiswa baru kami umumnya adalah  Prodi Manajemen, Prodi Akutansi dan Prodi Ilmu Hukum. Namun, pilihan dapat bervariasi sesuai dengan minat masing-masing calon mahasiswa."],
     "pendaftaran online": ["Ya, kami menyediakan opsi pendaftaran online untuk memudahkan calon mahasiswa baru. Anda dapat mengunjungi situs web resmi kami dan mengikuti panduan pendaftaran online di sana."],
