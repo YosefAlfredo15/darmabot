@@ -10,6 +10,7 @@ import os
 # Atur zona waktu menjadi Asia/Jakarta
 os.environ['TZ'] = 'Asia/Jakarta'
 from nltk.tokenize import word_tokenize
+from nltk import pos_tag
 from nltk.stem import PorterStemmer
 from datetime import datetime 
 import pytz
@@ -785,6 +786,7 @@ def process_text(text):
 
 # Preprocessing responses
 preprocessed_responses = {key: [process_text(response) for response in responses[key]] for key in responses}
+
 # Fungsi untuk mendapatkan waktu saat ini di Jakarta
 def get_current_time_jakarta():
     jakarta_timezone = pytz.timezone('Asia/Jakarta')
