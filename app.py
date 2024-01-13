@@ -993,9 +993,14 @@ for message in st.session_state.conversation:
     emoji = "👤" if role == "Anda" else "🤖"
     role_text = role.capitalize()
 
-    # Menggunakan HTML untuk mengatur warna teks chat history (misalnya, putih)
-    message_text = f"{emoji.capitalize()} {role_text}: {message['message']}"
-    st.markdown(f"<p style='color: yellow;'>{message_text}</p>", unsafe_allow_html=True) 
+    # Menentukan warna teks berdasarkan peran
+    if role == "Anda":
+        color = "white"
+    else:
+        # Warna untuk pesan Darma Bot
+        color = "yellow"  # Sesuaikan warna sesuai keinginan
 
+    message_text = f"{emoji.capitalize()} {role_text}: {message['message']}"
+    st.markdown(f"<p style='color: {color};'>{message_text}</p>", unsafe_allow_html=True)
 
 
