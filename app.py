@@ -870,11 +870,11 @@ def respond(user_message, threshold = 3):
 
     matched_keys = [key for key in responses if Levenshtein.distance(key, user_message) < threshold]
 
-    # Jika ada kunci yang cocok, pilih respons dari salah satu kunci yang cocok
-        if matched_keys:
-            return random.choice(responses[random.choice(matched_keys)])
-        else:
-           return random.choice(responses["default"])
+# Jika ada kunci yang cocok, pilih respons dari salah satu kunci yang cocok
+if matched_keys:
+    return random.choice(responses[random.choice(matched_keys)])
+else:
+    return default_response()
         
 # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
 def handle_date_time_queries(user_message):
