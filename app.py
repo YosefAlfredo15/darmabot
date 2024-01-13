@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import string
 import random
-import Levenshtein
 import re
 import nltk
 import os
@@ -860,14 +859,15 @@ def get_current_tahun():
 
 # Fungsi untuk merespons pertanyaan pengguna
 def respond(user_message):
-    user_message = preprocess_text(user_message.lower())
+    # Lakukan preprocessing pada input pengguna
+    user_message = preprocess_text(user_message)
 
     # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
     date_time_response = handle_date_time_queries(user_message)
     if date_time_response:
         return date_time_response
 
-    matched_keys = [key for key in responses if Levenshtein.distance(key, user_message) < threshold]
+    matched_keys = [key for key in responses if key in user_message]
 
     # Jika ada kunci yang cocok, pilih respons dari salah satu kunci yang cocok
     if matched_keys:
@@ -978,7 +978,7 @@ if submit_button:
         st.session_state.conversation.append({"role": "Anda", "message": user_message})
 
         # Mendapatkan tanggapan dari chatbot
-        bot_response = respond(user_message)
+        bot_response = respond(user_message)  # Anda perlu mendefinisikan fungsi respond sesuai kebutuhan
 
         # Menambahkan pesan bot ke dalam percakapan
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
