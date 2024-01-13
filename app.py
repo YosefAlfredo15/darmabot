@@ -759,32 +759,56 @@ responses = {
 
 }
 
-# Fungsi untuk menghapus karakter non-alfabet, menghapus stopword, dan mengonversi teks menjadi huruf kecil
-def process_text(text):
-    # Menghapus karakter non-alfabet
-    text = re.sub(r'[^a-zA-Z\s]', '', text)
-    
-    # Fungsi penghapusan stopword
+# Fungsi penghapusan stopword
+def remove_stopwords(text):
     words = word_tokenize(text)
     stop_words = set(stopwords.words('indonesian'))
     filtered_words = [word.lower() for word in words if word.lower() not in stop_words]
     processed_text = ' '.join(filtered_words)
+    return processed_text
 
-    # Fungsi Tokenisasi 
-    tokens = word_tokenize(processed_text)
-    
-    # Fungsi stemming
+# Fungsi Tokenisasi
+def tokenize_text(text):
+    # Menggunakan tokenisasi kata dari NLTK
+    tokens = word_tokenize(text)
+    return tokens
+
+# Fungsi stemming
+def stem_text(text):
+    # Tokenisasi kata menggunakan nltk
+    tokens = word_tokenize(text)
+
+    # Inisialisasi PorterStemmer
     stemmer = PorterStemmer()
+
+    # Melakukan stemming pada setiap token
     stemmed_tokens = [stemmer.stem(token) for token in tokens]
+
+    # Menggabungkan kembali token-token yang telah distem
     stemmed_text = ' '.join(stemmed_tokens)
 
-    # Mengonversi teks menjadi huruf kecil
-    processed_text = processed_text.lower()
-    
-    return processed_text, pos_tags, stemmed_text
+    return stemmed_text
 
-# Preprocessing responses
-preprocessed_responses = {key: [process_text(response) for response in responses[key]] for key in responses}
+# Fungsi untuk menghapus karakter non-alfabet, menghapus stopword, dan mengonversi teks menjadi huruf kecil
+def process_text(text):
+    # Menghapus karakter non-alfabet
+    text = re.sub(r'[^a-zA-Z\s]', '', text)
+
+    # Fungsi penghapusan stopword
+    processed_text = remove_stopwords(text)
+    
+    # Fungsi Tokenisasi
+    tokenized_text = tokenize_text(processed_text)
+
+    # Fungsi stemming
+    stemmed_text = stem_text(processed_text)
+
+    return processed_text, tokenized_text, stemmed_text
+
+# Contoh penggunaan fungsi process_text
+example_text = "Ini adalah contoh teks untuk diproses."
+processed_result, tokenized_result, stemmed_result = process_text(example_text)
+
 
 # Fungsi untuk mendapatkan waktu saat ini di Jakarta
 def get_current_time_jakarta():
