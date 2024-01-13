@@ -467,13 +467,13 @@ responses = {
     
     
 
-    "biaya" : ["biaya apa yang anda ingin tanyakan? Jika anda bertanya mengenai biaya pendaftaran di kampus UKDC adalah Rp. 250.000,- Untuk info lebih lanjut bisa anda lihat di : <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
-    "biaya pendaftaran di ukdc" : ["Untuk biaya pendaftaran di kampus UKDC adalah Rp. 250.000,- Info lebih lanjut bisa anda lihat di : <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
-    "biaya pendaftaran ukdc" : ["Untuk biaya pendaftaran di kampus UKDC adalah Rp. 250.000,- Info lebih lanjut bisa anda lihat di : <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
-    "biaya pendaftaran" : ["Untuk biaya pendaftaran di kampus UKDC adalah Rp. 250.000,- Info lebih lanjut bisa anda lihat di : <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya" : ["Biaya apa yang anda ingin tanyakan? Jika anda bertanya mengenai biaya pendaftaran di kampus UKDC adalah Rp. 250.000,- Untuk info lebih lanjut bisa anda lihat di : <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya pendaftaran di ukdc" : ["Untuk biaya pendaftaran di kampus UKDC adalah Rp. 250.000,- Serta biaya pembinaan Rp. 1.750.000,- Untuk info lebih lanjut bisa anda lihat di : <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya pendaftaran ukdc" : ["Untuk biaya pendaftaran di kampus UKDC adalah Rp. 250.000,- Serta biaya pembinaan Rp. 1.750.000,- Untuk info lebih lanjut bisa anda lihat di : <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya pendaftaran": ["Untuk biaya pendaftaran di kampus UKDC adalah Rp. 250.000,- Serta biaya pembinaan Rp. 1.750.000,- Untuk info lebih lanjut bisa anda lihat di : <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     
-    "infromasi mengenai pembayaran kuliah" :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
-    "bayar kuliah" :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "infromasi mengenai pembayaran kuliah" :["Untuk informasi mengenai pembayaran kuliah di UKDC, anda dapat mengakses <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "bayar kuliah" :["Jika anda sudah terdaftar sebagai mahasiswa di ukdc, kalian dapat membayar uang kuliah di  <a href=https://siakad.ukdc.ac.id/ target=\"_blank\">Siakad UKDC </a>" Masukan Email/Akun Pengguna dan password yang sudah terdaftar lalu anda dapat membayar tagihan uang kuliah di halaman beranda siakad ukdc],
     "cara bayar kuliah " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     "pembayaran kuliah " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     "berapa biaya kuliah di ukdc " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
