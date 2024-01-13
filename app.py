@@ -988,7 +988,7 @@ for message in st.session_state.conversation:
 
     # Menggunakan HTML untuk mengatur warna teks chat history (misalnya, putih)
     message_text = f"{emoji.capitalize()} {role_text}: {message['message']}"
-    st.markdown(f"<p style='color: white;'>{message_text}</p>", unsafe_allow_html=True)
+    st.markdown(f"<p style='color: yellow;'>{message_text}</p>", unsafe_allow_html=True)
 
 
 
