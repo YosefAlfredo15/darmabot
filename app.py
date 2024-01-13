@@ -893,9 +893,6 @@ def handle_date_time_queries(user_message):
     else:
         return None
 
-     # Jika tidak ada kunci yang cocok, gunakan respons default
-        def default_response():
-        return random.choice(responses["default"])
 
 
     # Menyiapkan area untuk menampilkan percakapan
