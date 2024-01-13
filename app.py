@@ -873,10 +873,11 @@ def respond(user_message, threshold=3):
     # Jika ada kunci yang cocok, pilih respons dari salah satu kunci yang cocok
     if matched_keys:
         return random.choice(responses[random.choice(matched_keys)])
-    elif "default" in responses:
+    elif "default" in responses and responses["default"]:
         return random.choice(responses["default"])
     else:
         return "Maaf, tidak ada respons default yang tersedia."
+
         
 # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
 def handle_date_time_queries(user_message):
