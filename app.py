@@ -960,8 +960,7 @@ if "conversation" not in st.session_state:
     st.session_state.conversation = []
 
     
-# Form untuk input pengguna
-with st.form(key='my_form'):
+#inputan text pengguna
     user_message = st.text_input("Anda:", value="", key="user_input").lower()
     
     # Mengatur warna teks "Anda:" menjadi putih
