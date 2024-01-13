@@ -833,7 +833,7 @@ def get_current_tahun():
 
 # Fungsi untuk merespons pertanyaan pengguna
 def respond(user_message, threshold=3):
-    user_message = preprocess_text(user_message.lower())
+    user_message = process_text(user_message.lower())
 
     # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
     date_time_response = handle_date_time_queries(user_message)
