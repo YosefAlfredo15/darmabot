@@ -482,7 +482,7 @@ responses = {
     "berapa biaya kuliah di ukdc " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     "berapa biaya ukdc " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     "berapa uang kuliah ukdc " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
-    "biaya kuliah" :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya kuliah" :["adalah"],
     "berapa biaya persemester di kampus ukdc": ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     "berapa biaya perkuliahan di ukdc" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     "biaya kampus" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
