@@ -851,13 +851,12 @@ def get_current_namabulan():
     current_namabulan = get_month_name_indonesia(now.month)
     return current_namabulan
 
- #--------------------------------------------------------------------------
-
-    # Fungsi untuk mendapatkan tahun saat ini
+# Fungsi untuk mendapatkan tahun saat ini
     def get_current_tahun():
     now = datetime.now()
     current_tahun = now.strftime("%Y")
     return current_tahun
+
 
 # Fungsi untuk merespons pertanyaan pengguna
 def respond(user_message, threshold = 3):
@@ -899,63 +898,6 @@ def handle_date_time_queries(user_message):
 
     # Menyiapkan area untuk menampilkan percakapan
     chat_area = st.empty()
-
-
-
-#Direktori url pdf
-syarat_pendaftaran = "https://penmaru.ukdc.ac.id/?page_id=25"
-biaya_pendidikan = "https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view?usp=sharing"
-formulir_pendaftaran= "https://docs.google.com/spreadsheets/u/1/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit?usp=sharing&ouid=113410767803438705296&rtpof=true&sd=true"
-pendaftaran_online = "https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi"
-
-
-# Judul di sidebar
-st.sidebar.markdown(f"""
-<div style="text-align: center;">
-    <h2>SI DARMA BOT </h2>
-</div>
-""", unsafe_allow_html=True)
-
-user_name = st.sidebar.text_input("Nama Pengguna", "")
-
-st.sidebar.markdown(f"""
-<div style="text-align: center;">
-    <h2>Selamat Datang {user_name} ! </h2>
-</div>
-""", unsafe_allow_html=True)
-
-# Membuat garis di sidebar
-st.sidebar.markdown("---")
-
-st.sidebar.markdown("""
-<div style="text-align: center;">
-    <h2>Opsi Chatbot</h2>
-</div>
-""", unsafe_allow_html=True)
-
-
-# Menambahkan beberapa pilihan dalam sidebar
-show_image_option = st.sidebar.checkbox("Tampilkan Informasi Pendaftaran", True)
-
-if show_image_option:
-    st.sidebar.markdown(f"[Syarat Pendaftaran]({syarat_pendaftaran})")
-    st.sidebar.markdown(f"[Flayer Biaya pendidikan]({biaya_pendidikan})")
-    st.sidebar.markdown(f"[Form Pendaftaran]({formulir_pendaftaran})")
-    st.sidebar.markdown(f"[Pendaftaran Online]({pendaftaran_online})")
-
-    
-
-# Menambahkan informasi tambahan atau tautan
-st.sidebar.subheader("Informasi Tambahan")
-st.sidebar.info("Si Darma Chatbot Adalah Sistem informasi ChatBot untuk membantu user dalam mencari informasi mengenai Universitas Katolik Darma Cendika.")
-
-# Menambahkan tautan ke dokumentasi atau sumber daya
-st.sidebar.subheader("Mari Tour Bersama Ku Di Kampus UKDC")
-st.sidebar.markdown("[virtual Campus Tour 360](https://ukdc.ac.id/virtual-campus-tour-360/)")
-
-# Menambahkan footer atau tanda air
-st.sidebar.markdown("---")
-st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 
 # Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
 if "conversation" not in st.session_state:
