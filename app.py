@@ -59,7 +59,6 @@ st.markdown("<p style='text-align: center; color: white;'>Halo! Nama saya Darma 
 #pertanyaan dan jawaban
 responses = {
 
-
 # Selamat Pagi (salam)
     "pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
     "selamat pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
@@ -466,32 +465,33 @@ responses = {
     "Adakah formulir pendaftaran" : ["Formulir pendaftaran ada di <a href= https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603 target=\"_blank\">Lihat dan Cetak Formulir Pendaftaran </a>"],
     "Berikan saya formulir pendaftaran" : ["Formulir pendaftaran ada di <a href= https://docs.google.com/spreadsheets/d/1E1TholuFMoD1Vrv8oqZLaLGB_eGftI3L/edit#gid=136700603 target=\"_blank\">Lihat dan Cetak Formulir Pendaftaran </a>"],
     
-
-    "biaya" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "biaya pendaftaran di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "biaya pendaftaran ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "], 
-    "biaya pendaftaran" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
     
-    "infromasi mengenai pembayaran kuliah" :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "bayar kuliah" :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view"],
-    "cara bayar kuliah " :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view  "],
-    "pembayaran kuliah " :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "berapa biaya kuliah di ukdc " :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "berapa biaya ukdc " :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "berapa uang kuliah ukdc " :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "biaya kuliah" :["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "berapa biaya persemester di kampus ukdc": ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "berapa biaya perkuliahan di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "biaya kampus" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "biaya di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "biaya persemester" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "biaya persemester di kampus ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "biaya persemester di UKDC" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "infomasi biaya kuliah" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "Informasi biaya kuliah di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "Tarif pendaftaran online" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "Tarif kuliah di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
-    "berapa uang kuliah di ukdc" : ["Kalian bisa langsung download flyer ini ya https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view "],
+
+    "biaya" : ["Kalian bisa langsung download flyer ini ya<a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya pendaftaran di ukdc" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya pendaftaran ukdc" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya pendaftaran" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    
+    "infromasi mengenai pembayaran kuliah" :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "bayar kuliah" :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "cara bayar kuliah " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "pembayaran kuliah " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "berapa biaya kuliah di ukdc " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "berapa biaya ukdc " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "berapa uang kuliah ukdc " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya kuliah" :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],,
+    "berapa biaya persemester di kampus ukdc": ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "berapa biaya perkuliahan di ukdc" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya kampus" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya di ukdc" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya persemester" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya persemester di kampus ukdc" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "biaya persemester di UKDC" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "infomasi biaya kuliah" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "Informasi biaya kuliah di ukdc" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "Tarif pendaftaran online" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "Tarif kuliah di ukdc" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    "berapa uang kuliah di ukdc" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
 
 
 
