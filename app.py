@@ -871,7 +871,14 @@ def respond(user_message, threshold=3):
     if matched_keys:
         return random.choice(responses[random.choice(matched_keys)])
     else:
-        return default_response()
+        return random.choice(responses["default"])
+
+# Default untuk jawaban dari pertanyaan yang tidak ada di dataset
+responses["default"] = ["Apakah ada sesuatu yang anda ingin tanyakan kepada saya? contoh : apa syarat masuk ukdc?, bagaimana cara mendaftar di ukdc?, atau berapa uang kuliah di ukdc?"]
+
+# Fungsi untuk merespons pertanyaan pengguna
+def default_response():
+    return random.choice(responses["default"])
         
 # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
 def handle_date_time_queries(user_message):
