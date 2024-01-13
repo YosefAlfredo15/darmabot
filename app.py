@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import string
 import random
+import Levenshtein
 import re
 import nltk
 import os
@@ -858,16 +859,15 @@ def get_current_tahun():
     return current_tahun
 
 # Fungsi untuk merespons pertanyaan pengguna
-def respond(user_message):
-    # Lakukan preprocessing pada input pengguna
-    user_message = preprocess_text(user_message)
+def respond(user_message, threshold = 3):
+    user_message = preprocess_text(user_message.lower())
 
     # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
     date_time_response = handle_date_time_queries(user_message)
     if date_time_response:
         return date_time_response
 
-    matched_keys = [key for key in responses if key in user_message]
+    matched_keys = [key for key in responses if Levenshtein.distance(key, user_message) < threshold]
 
     # Jika ada kunci yang cocok, pilih respons dari salah satu kunci yang cocok
     if matched_keys:
@@ -957,10 +957,6 @@ st.sidebar.markdown("[virtual Campus Tour 360](https://ukdc.ac.id/virtual-campus
 st.sidebar.markdown("---")
 st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 
-# Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
-if "conversation" not in st.session_state:
-    st.session_state.conversation = []
-
 # Form untuk input pengguna
 with st.form(key='my_form'):
     user_message = st.text_input("Anda:", value="", key="user_input").lower()
@@ -978,7 +974,7 @@ if submit_button:
         st.session_state.conversation.append({"role": "Anda", "message": user_message})
 
         # Mendapatkan tanggapan dari chatbot
-        bot_response = respond(user_message)  # Anda perlu mendefinisikan fungsi respond sesuai kebutuhan
+        bot_response = respond(user_message)
 
         # Menambahkan pesan bot ke dalam percakapan
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
@@ -995,8 +991,7 @@ for message in st.session_state.conversation:
 
     # Menggunakan HTML untuk mengatur warna teks chat history (misalnya, putih)
     message_text = f"{emoji.capitalize()} {role_text}: {message['message']}"
-    st.markdown(f"<p style='color: yellow;'>{message_text}</p>", unsafe_allow_html=True)
-
+    st.markdown(f"<p style='color: yellow;'>{message_text}</p>", unsafe_allow_html=True) 
 
 
 
