@@ -758,55 +758,33 @@ responses = {
 
 }
 
-# Fungsi preprocessing
-def preprocess_text(text):
+# Fungsi untuk menghapus karakter non-alfabet, menghapus stopword, dan mengonversi teks menjadi huruf kecil
+def process_text(text):
     # Menghapus karakter non-alfabet
     text = re.sub(r'[^a-zA-Z\s]', '', text)
-    # Mengonversi teks menjadi huruf kecil
-    text = text.lower()
-    return text
+    
+    # Fungsi penghapusan stopword
+    words = word_tokenize(text)
+    stop_words = set(stopwords.words('indonesian'))
+    filtered_words = [word.lower() for word in words if word.lower() not in stop_words]
+    processed_text = ' '.join(filtered_words)
 
-    # Membuat objek stemmer
-    factory = StemmerFactory()
-    stemmer = factory.create_stemmer()
+    # Fungsi Tokenisasi dan POS Tagging
+    tokens = word_tokenize(processed_text)
+    pos_tags = pos_tag(tokens)
 
-    # Stemming kata-kata
-    stemmed_tokens = [stemmer.stem(token) for token in tokens]
-
-    return stemmed_tokens
-
-# Proses preprocessing pada setiap nilai dalam kamus
-preprocessed_responses = {key: [preprocess_text(response) for response in responses[key]] for key in responses}
-
-#Fungsi Tokenisasi
-def tokenize_text(text):
-    # Menggunakan tokenisasi kata dari NLTK
-    tokens = word_tokenize(text)
-    return tokens
-
-# Preprocessing responses
-preprocessed_responses = {key: [tokenize_text(preprocess_text(response)) for response in responses[key]] for key in responses}
-
-
-# Fungsi stemming
-def stem_text(text):
-    # Tokenisasi kata menggunakan nltk
-    tokens = word_tokenize(text)
-
-    # Inisialisasi PorterStemmer
+    # Fungsi stemming
     stemmer = PorterStemmer()
-
-    # Melakukan stemming pada setiap token
     stemmed_tokens = [stemmer.stem(token) for token in tokens]
-
-    # Menggabungkan kembali token-token yang telah distem
     stemmed_text = ' '.join(stemmed_tokens)
 
-    return stemmed_text
+    # Mengonversi teks menjadi huruf kecil
+    processed_text = processed_text.lower()
+    
+    return processed_text, pos_tags, stemmed_text
 
-# Melakukan stemming pada setiap nilai dalam kamus
-stemmed_responses = {key: [stem_text(response) for response in responses[key]] for key in responses}
-
+# Preprocessing responses
+preprocessed_responses = {key: [process_text(response) for response in responses[key]] for key in responses}
 # Fungsi untuk mendapatkan waktu saat ini di Jakarta
 def get_current_time_jakarta():
     jakarta_timezone = pytz.timezone('Asia/Jakarta')
