@@ -18,7 +18,7 @@ import locale
 from nltk.corpus import stopwords
 nltk.download('punkt')
 nltk.download('stopwords')
-nltk.download('averaged_perceptron_tagger')
+
 
 
 
@@ -771,10 +771,9 @@ def process_text(text):
     filtered_words = [word.lower() for word in words if word.lower() not in stop_words]
     processed_text = ' '.join(filtered_words)
 
-    # Fungsi Tokenisasi dan POS Tagging
+    # Fungsi Tokenisasi 
     tokens = word_tokenize(processed_text)
-    pos_tags = pos_tag(tokens)
-
+    
     # Fungsi stemming
     stemmer = PorterStemmer()
     stemmed_tokens = [stemmer.stem(token) for token in tokens]
