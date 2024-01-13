@@ -959,14 +959,12 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
 
-# Inputan text pengguna
-user_message = st.text_input("Anda:", value="", key="user_input").lower()
-
-# Mengatur warna teks "Anda:" menjadi putih
-st.markdown("<style>label{color: white;}</style>", unsafe_allow_html=True)
-
-# Tombol kirim
-submit_button = st.button("Kirim")
+# Form untuk input pengguna
+with st.form(key='my_form'):
+    user_message = st.text_input("Anda:", value="", key="user_input").lower()
+    
+    # Tombol kirim
+    submit_button = st.form_submit_button("Kirim")
 
 # Tanggapan jika tombol kirim ditekan
 if submit_button:
@@ -984,7 +982,7 @@ if submit_button:
         st.session_state.conversation.append({"role": "Darma Bot", "message": bot_response})
 
         # Mengosongkan nilai input setelah tombol diklik
-        st.text_input("Anda:", value="", key="user_input")
+        st.markdown("<script>document.getElementById('user_input').value = '';</script>", unsafe_allow_html=True)
 
 # Menampilkan chat history
 for message in st.session_state.conversation:
