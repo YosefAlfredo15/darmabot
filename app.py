@@ -759,19 +759,35 @@ responses = {
 
 }
 
-# Fungsi penghapusan stopword
-def remove_stopwords(text):
-    words = word_tokenize(text)
-    stop_words = set(stopwords.words('indonesian'))
-    filtered_words = [word.lower() for word in words if word.lower() not in stop_words]
-    processed_text = ' '.join(filtered_words)
-    return processed_text
+# Fungsi preprocessing
+def preprocess_text(text):
+    # Menghapus karakter non-alfabet
+    text = re.sub(r'[^a-zA-Z\s]', '', text)
+    # Mengonversi teks menjadi huruf kecil
+    text = text.lower()
+    return text
 
-# Fungsi Tokenisasi
+    # Membuat objek stemmer
+    factory = StemmerFactory()
+    stemmer = factory.create_stemmer()
+
+    # Stemming kata-kata
+    stemmed_tokens = [stemmer.stem(token) for token in tokens]
+
+    return stemmed_tokens
+
+# Proses preprocessing pada setiap nilai dalam kamus
+preprocessed_responses = {key: [preprocess_text(response) for response in responses[key]] for key in responses}
+
+#Fungsi Tokenisasi
 def tokenize_text(text):
     # Menggunakan tokenisasi kata dari NLTK
     tokens = word_tokenize(text)
     return tokens
+
+# Preprocessing responses
+preprocessed_responses = {key: [tokenize_text(preprocess_text(response)) for response in responses[key]] for key in responses}
+
 
 # Fungsi stemming
 def stem_text(text):
@@ -789,25 +805,8 @@ def stem_text(text):
 
     return stemmed_text
 
-# Fungsi untuk menghapus karakter non-alfabet, menghapus stopword, dan mengonversi teks menjadi huruf kecil
-def process_text(text):
-    # Menghapus karakter non-alfabet
-    text = re.sub(r'[^a-zA-Z\s]', '', text)
-
-    # Fungsi penghapusan stopword
-    processed_text = remove_stopwords(text)
-    
-    # Fungsi Tokenisasi
-    tokenized_text = tokenize_text(processed_text)
-
-    # Fungsi stemming
-    stemmed_text = stem_text(processed_text)
-
-    return processed_text, tokenized_text, stemmed_text
-
-# Contoh penggunaan fungsi process_text
-example_text = "Ini adalah contoh teks untuk diproses."
-processed_result, tokenized_result, stemmed_result = process_text(example_text)
+# Melakukan stemming pada setiap nilai dalam kamus
+stemmed_responses = {key: [stem_text(response) for response in responses[key]] for key in responses}
 
 
 # Fungsi untuk mendapatkan waktu saat ini di Jakarta
@@ -855,7 +854,7 @@ def get_current_tahun():
 
 # Fungsi untuk merespons pertanyaan pengguna
 def respond(user_message, threshold=3):
-    user_message = process_text(user_message.lower())
+    user_message = preprocess_text(user_message.lower())
 
     # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
     date_time_response = handle_date_time_queries(user_message)
