@@ -414,6 +414,7 @@ responses = {
     "informasi pendaftaran di ukdc" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
     "bagaimana cara mendaftar di ukdc" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
     "daftar di ukdc" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
+    "daftar ukdc" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
     "saya mau daftar" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
     "saya mau daftar" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
     "saya mau mendaftar di ukdc" : ["Anda dapat mengakses informasi pendaftaran di <a href=https://siakad.ukdc.ac.id/spmbfront/jalur-seleksi target=\"_blank\">Jalur Pendaftaran </a>"],
