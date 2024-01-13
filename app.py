@@ -473,7 +473,9 @@ responses = {
     "biaya pendaftaran": ["Untuk biaya pendaftaran di kampus UKDC adalah Rp. 250.000,- Serta biaya pembinaan Rp. 1.750.000,- Untuk info lebih lanjut bisa anda lihat di : <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     
     "infromasi mengenai pembayaran kuliah" :["Untuk informasi mengenai pembayaran kuliah di UKDC, anda dapat mengakses <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a> Masukan Email/Akun Pengguna dan password yang sudah terdaftar lalu anda dapat membayar tagihan uang kuliah di halaman beranda siakad ukdc"],
-    "bayar kuliah" :["Jika anda sudah terdaftar sebagai mahasiswa di ukdc, kalian dapat membayar uang kuliah di  <a href=https://siakad.ukdc.ac.id/ target=\"_blank\">Siakad UKDC </a>" ],
+    "bayar kuliah1" :["Jika anda sudah terdaftar sebagai mahasiswa di ukdc, kalian dapat membayar uang kuliah di  <a href=https://siakad.ukdc.ac.id/ target=\"_blank\">Siakad UKDC </a>" ],
+    "biaya kuliah2" :["Biaya kuliah di ukdc sangat bervariasi tergantung dari program jurusan yang di ambil. Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
+    
     "cara bayar kuliah " :["Jika anda sudah terdaftar sebagai mahasiswa di ukdc, kalian dapat membayar uang kuliah di  <a href=https://siakad.ukdc.ac.id/ target=\"_blank\">Siakad UKDC </a>" ],
     "pembayaran kuliah " :["Jika anda sudah terdaftar sebagai mahasiswa di ukdc, kalian dapat membayar uang kuliah di  <a href=https://siakad.ukdc.ac.id/ target=\"_blank\">Siakad UKDC </a>" ],
     "pembayaran kuliah ukdc " :["Jika anda sudah terdaftar sebagai mahasiswa di ukdc, kalian dapat membayar uang kuliah di  <a href=https://siakad.ukdc.ac.id/ target=\"_blank\">Siakad UKDC </a>" ],
@@ -482,7 +484,7 @@ responses = {
     "berapa biaya kuliah di ukdc " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     "berapa biaya ukdc " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     "berapa uang kuliah ukdc " :["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
-    "biaya kuliah" :["adalah"],
+    
     "berapa biaya persemester di kampus ukdc": ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     "berapa biaya perkuliahan di ukdc" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
     "biaya kampus" : ["Kalian bisa langsung download flyer ini ya <a href=https://drive.google.com/file/d/1cEGxjDqxJWdZqK3Hi4ETOedWXpsgQKHw/view target=\"_blank\">Biaya Pendidikan </a>"],
