@@ -900,16 +900,14 @@ def handle_date_time_queries(user_message):
     # Menyiapkan area untuk menampilkan percakapan
     chat_area = st.empty()
 
-# Inisialisasi percakapan pada sesi pertama (Inisialisasi session_state) 
-if "conversation" not in st.session_state:
-    st.session_state.conversation = []
+# Input pengguna tanpa form
+user_message = st.text_input("", value="", key="user_input").lower()
 
-# Form untuk input pengguna
-with st.form(key='my_form'):
-    user_message = st.text_input("Anda:", value="", key="user_input").lower()
-    
-    # Tombol kirim
-    submit_button = st.form_submit_button("Kirim")
+# Menetapkan warna teks "Anda:" menjadi putih
+st.markdown("<style>label{color: white;}</style>", unsafe_allow_html=True)
+
+# Tombol kirim
+submit_button = st.button("Kirim")
 
 # Tanggapan jika tombol kirim ditekan
 if submit_button:
@@ -928,7 +926,8 @@ if submit_button:
 
         # Mengosongkan nilai input setelah tombol diklik
         st.markdown("<script>document.getElementById('user_input').value = '';</script>", unsafe_allow_html=True)
-
+        
+        
 # Menampilkan chat history
 for message in st.session_state.conversation:
     role = message['role']
