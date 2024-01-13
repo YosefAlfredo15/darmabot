@@ -760,7 +760,8 @@ responses = {
     "siapa nama Wakil Rektor 3 (Bidang Kemahasiswaan dan Alumni) UKDC" :["Nama Rektor Universitas Katolik Darma Cendika sekarang ialah, Dr. V. RATNA INGGAWATI, M.M."],
     "siapa Wakil Rektor 3 (Bidang Kemahasiswaan dan Alumni) Universitas Katolik Darma Cendika" :["Wakil Rektor 3 (Bidang Kemahasiswaan dan Alumni) Universitas Katolik Darma Cendika sekarang ialah, Dr. V. RATNA INGGAWATI, M.M."],
    
-
+     #Default untuk jawaban dari pertanyaan yang tidak ada di dataset
+    "default" : ["Apakah ada sesuatu yang anda ingin tanyakan kepada saya? contoh : apa syarat masuk ukdc?, bagaimana cara mendaftar di ukdc?, atau berapa uang kuliah di ukdc?"],
    
 
 
@@ -871,9 +872,6 @@ def respond(user_message, threshold=3):
         return random.choice(responses[random.choice(matched_keys)])
     else:
         return random.choice(responses["default"])
-
-# Default untuk jawaban dari pertanyaan yang tidak ada di dataset
-responses["default"] = ["Apakah ada sesuatu yang anda ingin tanyakan kepada saya? contoh : apa syarat masuk ukdc?, bagaimana cara mendaftar di ukdc?, atau berapa uang kuliah di ukdc?"]
 
 # Fungsi untuk merespons pertanyaan pengguna
 def default_response():
