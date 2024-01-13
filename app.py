@@ -839,7 +839,6 @@ def get_current_tanggal():
     current_tanggal = now.strftime("%d")
     return current_tanggal
 
-
 # Fungsi untuk mendapatkan nama bulan dalam bahasa Indonesia
 def get_month_name_indonesia(month):
     month_names = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
@@ -852,14 +851,13 @@ def get_current_namabulan():
     return current_namabulan
 
 # Fungsi untuk mendapatkan tahun saat ini
-    def get_current_tahun():
+def get_current_tahun():
     now = datetime.now()
     current_tahun = now.strftime("%Y")
     return current_tahun
 
-
 # Fungsi untuk merespons pertanyaan pengguna
-def respond(user_message, threshold = 3):
+def respond(user_message, threshold=3):
     user_message = preprocess_text(user_message.lower())
 
     # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
@@ -874,7 +872,6 @@ def respond(user_message, threshold = 3):
         return random.choice(responses[random.choice(matched_keys)])
     else:
         return default_response()
-
         
 # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
 def handle_date_time_queries(user_message):
