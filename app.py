@@ -10,7 +10,6 @@ import os
 # Atur zona waktu menjadi Asia/Jakarta
 os.environ['TZ'] = 'Asia/Jakarta'
 from nltk.tokenize import word_tokenize
-from nltk import pos_tag
 from nltk.stem import PorterStemmer
 from datetime import datetime 
 import pytz
