@@ -18,6 +18,7 @@ import locale
 from nltk.corpus import stopwords
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
 
 
 
