@@ -761,8 +761,7 @@ responses = {
     "siapa Wakil Rektor 3 (Bidang Kemahasiswaan dan Alumni) Universitas Katolik Darma Cendika" :["Wakil Rektor 3 (Bidang Kemahasiswaan dan Alumni) Universitas Katolik Darma Cendika sekarang ialah, Dr. V. RATNA INGGAWATI, M.M."],
    
 
-    #Default untuk jawaban dari pertanyaan yang tidak ada di dataset
-    "default" : ["Apakah ada sesuatu yang anda ingin tanyakan kepada saya? contoh : apa syarat masuk ukdc?, bagaimana cara mendaftar di ukdc?, atau berapa uang kuliah di ukdc?"],
+   
 
 
 
