@@ -893,8 +893,13 @@ def handle_date_time_queries(user_message):
     else:
         return None
 
+     # Jika tidak ada kunci yang cocok, gunakan respons default
+        def default_response():
+        return random.choice(responses["default"])
 
 
+    # Menyiapkan area untuk menampilkan percakapan
+    chat_area = st.empty()
 
 
 
@@ -957,8 +962,6 @@ st.sidebar.text("© 2024 Si Darma Chatbot UKDC")
 if "conversation" not in st.session_state:
     st.session_state.conversation = []
 
-    # Menyiapkan area untuk menampilkan percakapan
-    chat_area = st.empty()
     
 # Form untuk input pengguna
 with st.form(key='my_form'):
@@ -985,9 +988,6 @@ if submit_button:
         # Mengosongkan nilai input setelah tombol diklik
         st.markdown("<script>document.getElementById('user_input').value = '';</script>", unsafe_allow_html=True)
 
-        # Jika tidak ada kunci yang cocok, gunakan respons default
-        def default_response():
-        return random.choice(responses["default"])
 
         
         
