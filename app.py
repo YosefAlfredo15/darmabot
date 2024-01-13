@@ -874,7 +874,7 @@ def respond(user_message, threshold = 3):
     if matched_keys:
         return random.choice(responses[random.choice(matched_keys)])
     else:
-        return default_response()
+        return default_responses()
         
 # Menanggapi pertanyaan tentang jam, hari, bulan, atau tahun
 def handle_date_time_queries(user_message):
