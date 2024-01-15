@@ -829,11 +829,12 @@ responses = {
     "siapa nama Wakil Rektor 3 (Bidang Kemahasiswaan dan Alumni) UKDC" :["Nama Rektor Universitas Katolik Darma Cendika sekarang ialah, Dr. V. RATNA INGGAWATI, M.M."],
     "siapa Wakil Rektor 3 (Bidang Kemahasiswaan dan Alumni) Universitas Katolik Darma Cendika" :["Wakil Rektor 3 (Bidang Kemahasiswaan dan Alumni) Universitas Katolik Darma Cendika sekarang ialah, Dr. V. RATNA INGGAWATI, M.M."],
 
-    "Siapa dosen favorit teknik informatika UKDC" : ["Mengenai dosen favorit tergantung dari penilaian mahasiswa terhadap dosen favoritnya. Menurut saya dosen favorit informatika adalah Bapak Ryan Putranda Kristianto., M.Kom"],
-    "Siapa dosen favorit informatika UKDC" : ["Mengenai dosen favorit tergantung dari penilaian mahasiswa terhadap dosen favoritnya. Menurut saya dosen favorit informatika adalah Bapak Ryan Putranda Kristianto., M.Kom"],
-    "Dosen favorit teknik informatika UKDC" : ["Mengenai dosen favorit tergantung dari penilaian mahasiswa terhadap dosen favoritnya. Menurut saya dosen favorit informatika adalah Bapak Ryan Putranda Kristianto., M.Kom"],
-    "Dosen favorit informatika UKDC" : ["Mengenai dosen favorit tergantung dari penilaian mahasiswa terhadap dosen favoritnya. Menurut saya dosen favorit informatika adalah Bapak Ryan Putranda Kristianto., M.Kom"],
-
+    "siapa dosen favorit teknik informatika UKDC" : ["Mengenai dosen favorit tergantung dari penilaian mahasiswa terhadap dosen favoritnya. Menurut saya dosen favorit informatika adalah Bapak Ryan Putranda Kristianto., M.Kom"],
+    "siapa dosen favorit informatika UKDC" : ["Mengenai dosen favorit tergantung dari penilaian mahasiswa terhadap dosen favoritnya. Menurut saya dosen favorit informatika adalah Bapak Ryan Putranda Kristianto., M.Kom"],
+    "dosen favorit teknik informatika UKDC" : ["Mengenai dosen favorit tergantung dari penilaian mahasiswa terhadap dosen favoritnya. Menurut saya dosen favorit informatika adalah Bapak Ryan Putranda Kristianto., M.Kom"],
+    "dosen favorit informatika UKDC" : ["Mengenai dosen favorit tergantung dari penilaian mahasiswa terhadap dosen favoritnya. Menurut saya dosen favorit informatika adalah Bapak Ryan Putranda Kristianto., M.Kom"],
+    "dosen favorit teknik informatika" :  ["Mengenai dosen favorit tergantung dari penilaian mahasiswa terhadap dosen favoritnya. Menurut saya dosen favorit informatika adalah Bapak Ryan Putranda Kristianto., M.Kom"],
+    "dosen favorit informatika" :  ["Mengenai dosen favorit tergantung dari penilaian mahasiswa terhadap dosen favoritnya. Menurut saya dosen favorit informatika adalah Bapak Ryan Putranda Kristianto., M.Kom"],
 
    
      #Default untuk jawaban dari pertanyaan yang tidak ada di dataset
