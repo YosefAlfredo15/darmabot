@@ -59,6 +59,42 @@ st.markdown("<p style='text-align: center; color: white;'>Halo! Nama saya Darma 
 #pertanyaan dan jawaban
 responses = {
 
+"halo selamat pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
+"halo pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
+"hallo selamat pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
+"hallo pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
+"hai selamat pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
+"hai pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
+"hay selamat pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
+"hay pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
+
+"halo selamat siang" : ["Selamat Siang , Ada yang bisa saya bantu?"],
+"halo siang" : ["Selamat Siang , Ada yang bisa saya bantu?"],
+"hallo selamat siang" : ["Selamat Siang , Ada yang bisa saya bantu?"],
+"hallo siang" : ["Selamat Siang , Ada yang bisa saya bantu?"],
+"hai selamat siang" : ["Selamat Siang , Ada yang bisa saya bantu?"],
+"hai siang" : ["Selamat Siang , Ada yang bisa saya bantu?"],
+"hay selamat siang" : ["Selamat Siang , Ada yang bisa saya bantu?"],
+"hay siang" : ["Selamat Siang , Ada yang bisa saya bantu?"],
+
+"halo selamat sore" : ["Selamat Sore , Ada yang bisa saya bantu?"],
+"halo sore" : ["Selamat Sore , Ada yang bisa saya bantu?"],
+"hallo selamat sore" : ["Selamat Sore , Ada yang bisa saya bantu?"],
+"hallo sore" : ["Selamat Sore , Ada yang bisa saya bantu?"],
+"hai selamat sore" : ["Selamat Sore , Ada yang bisa saya bantu?"],
+"hai sore" : ["Selamat Sore , Ada yang bisa saya bantu?"],
+"hay selamat sore" : ["Selamat Sore , Ada yang bisa saya bantu?"],
+"hay sore" : ["Selamat Sore , Ada yang bisa saya bantu?"],
+
+"halo selamat malam" : ["Selamat Malam , Ada yang bisa saya bantu?"],
+"halo malam" : ["Selamat Malam , Ada yang bisa saya bantu?"],
+"hallo selamat malam" : ["Selamat Malam , Ada yang bisa saya bantu?"],
+"hallo malam" : ["Selamat Malam , Ada yang bisa saya bantu?"],
+"hai selamat malam" : ["Selamat Malam , Ada yang bisa saya bantu?"],
+"hai malam" : ["Selamat Malam , Ada yang bisa saya bantu?"],
+"hay selamat malam" : ["Selamat Malam , Ada yang bisa saya bantu?"],
+"hay malam" : ["Selamat Malam , Ada yang bisa saya bantu?"],
+
 # Selamat Pagi (salam)
     "pagi" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
     "selamat pagi darmabot" : ["Selamat Pagi , Ada yang bisa saya bantu?"],
