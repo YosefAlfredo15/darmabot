@@ -417,6 +417,18 @@ responses = {
     "jurusan apa yang ada di ukdc" : ["1.Prodi Manajemen 2.Prodi Akutansi 3.Prodi Ilmu Hukum 4.Prodi Teknik Industri 5.Prodi Teknik Informatika 6.Prodi Arsitektur 7.Prodi Akupuntur & Pengobatan Herbal"],
     "jurusan apa aja yang ada di ukdc" : ["1.Prodi Manajemen 2.Prodi Akutansi 3.Prodi Ilmu Hukum 4.Prodi Teknik Industri 5.Prodi Teknik Informatika 6.Prodi Arsitektur 7.Prodi Akupuntur & Pengobatan Herbal"],
 
+
+    "visi dan misi kampus darma cendika apa": ["Untuk mengetahui Visi dan Misi di kampus UKDC, Anda bisa mengakses link <a href=\"https://ukdc.ac.id/visi-misi/\" target=\"_blank\">Visi & Misi UKDC</a>."], 
+    "visi dan misi di kampus darma cendika apa ": ["Untuk mengetahui Visi dan Misi di kampus UKDC, Anda bisa mengakses link <a href=\"https://ukdc.ac.id/visi-misi/\" target=\"_blank\">Visi & Misi UKDC</a>."], 
+    "visi dan misi di ukdc apa": ["Untuk mengetahui Visi dan Misi di kampus UKDC, Anda bisa mengakses link <a href=\"https://ukdc.ac.id/visi-misi/\" target=\"_blank\">Visi & Misi UKDC</a>."], 
+    "visi dan misi di kmapus ukdc apa": ["Untuk mengetahui Visi dan Misi di kampus UKDC, Anda bisa mengakses link <a href=\"https://ukdc.ac.id/visi-misi/\" target=\"_blank\">Visi & Misi UKDC</a>."], 
+    "visi dan misi universitas ukdc apa": ["Untuk mengetahui Visi dan Misi di kampus UKDC, Anda bisa mengakses link <a href=\"https://ukdc.ac.id/visi-misi/\" target=\"_blank\">Visi & Misi UKDC</a>."], 
+    
+    "visi misi kampus darma cendika": ["Untuk mengetahui Visi dan Misi di kampus UKDC, Anda bisa mengakses link <a href=\"https://ukdc.ac.id/visi-misi/\" target=\"_blank\">Visi & Misi UKDC</a>."], 
+    "visi misi ukdc": ["Untuk mengetahui Visi dan Misi di kampus UKDC, Anda bisa mengakses link <a href=\"https://ukdc.ac.id/visi-misi/\" target=\"_blank\">Visi & Misi UKDC</a>."], 
+    "visi misi di kampus darma cendika": ["Untuk mengetahui Visi dan Misi di kampus UKDC, Anda bisa mengakses link <a href=\"https://ukdc.ac.id/visi-misi/\" target=\"_blank\">Visi & Misi UKDC</a>."], 
+    "visi misi di kampus ukdc": ["Untuk mengetahui Visi dan Misi di kampus UKDC, Anda bisa mengakses link <a href=\"https://ukdc.ac.id/visi-misi/\" target=\"_blank\">Visi & Misi UKDC</a>."], 
+ 
     "apa visi kampus ukdc" :["Visi : “Menjadi Universitas yang unggul dalam mengembangkan characterpreneurship di Indonesia."],
     "apa visi kampus darma cendika" : ["Visi = “Menjadi Universitas yang unggul dalam mengembangkan characterpreneurship di Indonesia."],
     "apa misi kampus darma cendika" : ["Misi = Menyelenggarakan pendidikan tinggi yang integratif guna menghasilkan lulusan yang berkarakter wirausaha yang jujur, peduli dan bertanggung jawab. b. Menciptakan ekosistem pendidikan yang kolaboratif dan kondusif untuk mengembangkan budaya inovasi. c. Mewujudkan kualitas dosen dan tenaga kependidikan yang unggul berdasarkan nilai-nilai kebenaran dan kasih sayang. d. Mengoptimalkan civitas akademika dan pemangku kepentingan dalam melaksanakan tata kelola perguruan tinggi yang kredibel, transparan, akuntabel, bertanggung jawab, dan berkeadilan secara berkelanjutan. e. Membangun kemitraan dalam rangka meningkatkan kesejahteraan masyarakat."],
